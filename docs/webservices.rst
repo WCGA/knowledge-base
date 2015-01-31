@@ -1,7 +1,7 @@
 Web Services
 ============
 
-Why create web services?
+Why Create Web Services?
 ------------------------
 
 foo
@@ -11,8 +11,8 @@ Types of Web Services
 
 foo
 
-How Do Web Services Look in the Portal?
------------------------------------
+How Do Web Services Look In The Portal?
+---------------------------------------
 
 foo
 

@@ -1,17 +1,17 @@
 Contributing
 ============
 
-Why Register Your Resources?
-----------------------------
+Reasons to Register
+-------------------
 
 foo
 
-What is the Criteria For Inclusion?
------------------------------------
+Criteria For Inclusion
+----------------------
 
 bar
 
-What is the relationship with other portals?
---------------------------------------------
+Relationship With Other Portals
+-------------------------------
 
 blat

@@ -2,7 +2,7 @@ Metadata
 ========
 
 
-What information is required?
+What Information Is Required?
 -----------------------------
 
 foo
@@ -12,17 +12,17 @@ Content best practices
 
 foo
 
-What format is required?
+What Format Is Required?
 ------------------------
 
 foo
 
-How to create metadata?
+How To Create Metadata?
 -----------------------
 
 foo
 
-How is the metadata displayed?
+How Is The Metadata Displayed?
 ------------------------------
 
 foo
