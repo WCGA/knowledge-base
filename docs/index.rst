@@ -1,10 +1,5 @@
-.. West Coast Ocean Data Portal - Knowledge Base documentation master file, created by
-   sphinx-quickstart on Fri Jan 30 17:30:39 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Best Practices and Contributor Guide
-====================================
+West Coast Ocean Data Portal Knowledge Base
+===========================================
 
 The West Coast Ocean Data Portal is a tool that the WCGA hopes will increase
 discoverability and connectivity of people and systems on the West Coast to
@@ -21,11 +16,10 @@ Table of Contents
 -----------------
 
 .. toctree::
+  :maxdepth: 2
 
-   contributing
-   metadata
-   webservices
-
+  contributor-guide
+  training-materials
 
 Indices and tables
 ==================
