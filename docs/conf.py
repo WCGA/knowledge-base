@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'West Coast Ocean Data Portal - Knowledge Base'
+project = u'West Coast Ocean Data Portal Knowledge Base'
 copyright = u'2015, West Coast Ocean Data Portal Team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WestCoastOceanDataPortal-KnowledgeBasedoc'
+htmlhelp_basename = 'WestCoastOceanDataPortalKnowledgeBasedoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'WestCoastOceanDataPortal-KnowledgeBase.tex', u'West Coast Ocean Data Portal - Knowledge Base Documentation',
+  ('index', 'WestCoastOceanDataPortal-KnowledgeBase.tex', u'West Coast Ocean Data Portal Knowledge Base',
    u'West Coast Ocean Data Portal Team', 'manual'),
 ]
 
@@ -226,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'westcoastoceandataportal-knowledgebase', u'West Coast Ocean Data Portal - Knowledge Base Documentation',
+    ('index', 'westcoastoceandataportal-knowledgebase', u'West Coast Ocean Data Portal Knowledge Base',
      [u'West Coast Ocean Data Portal Team'], 1)
 ]
 
@@ -240,7 +240,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'WestCoastOceanDataPortal-KnowledgeBase', u'West Coast Ocean Data Portal - Knowledge Base Documentation',
+  ('index', 'WestCoastOceanDataPortal-KnowledgeBase', u'West Coast Ocean Data Portal Knowledge Base',
    u'West Coast Ocean Data Portal Team', 'WestCoastOceanDataPortal-KnowledgeBase', 'One line description of project.',
    'Miscellaneous'),
 ]
