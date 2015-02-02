@@ -4,7 +4,7 @@ Web Services
 Why Create Web Services?
 ------------------------
 
-foo
+Web services provide an open interoperable and highly efficient framework for using distributed data resources in common systems.
 
 Types of Web Services
 ---------------------
