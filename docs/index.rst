@@ -14,11 +14,5 @@ Table of Contents
 
   contributor-guide
   training-materials
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+  glossary
 
