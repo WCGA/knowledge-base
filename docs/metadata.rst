@@ -5,7 +5,8 @@ Metadata
 What Information Is Required?
 -----------------------------
 
-foo
+Totally Foo
+And more foo
 
 Content best practices
 ----------------------
