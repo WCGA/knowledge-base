@@ -8,5 +8,6 @@ discoverability and interoperability of their data and resources through the reg
   :maxdepth: 2
 
   contributing
+    FOO
   metadata
   webservices
