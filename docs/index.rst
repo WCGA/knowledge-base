@@ -12,7 +12,10 @@ Table of Contents
 .. toctree::
   :maxdepth: 3
 
-  contributor-guide
-  training-materials
+  contributing
+  metadata
+  webservices
+  catalogs
+  technology
   glossary
 

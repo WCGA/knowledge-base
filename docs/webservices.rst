@@ -6,25 +6,25 @@ Why Create Web Services?
 
 Web services provide an open interoperable and highly efficient framework for using distributed data resources in common systems.
 
+Display in the WCODP
+
 Types of Web Services
 ---------------------
 
-foo
+OGC
+ArcREST
+THREDDS
 
-How Do Web Services Look In The Portal?
----------------------------------------
 
-foo
-
-How To Create Web Services
+How to Create Web Services
 --------------------------
 
 foo
 
-Best Practices For Creating Services
+Best Practices for Creating Services
 ------------------------------------
 
-foo
+Put Anna's presentation links here
 
 Projection/Coordinate System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
