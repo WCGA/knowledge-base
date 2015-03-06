@@ -1,4 +1,4 @@
-This knowledge base for the West Coast Ocean Data Portal was developed using Sphinx and is published at [knowledgebase.readthedocs.org](http://knowledgebase.readthedocs.org).  
+This knowledge base for the West Coast Ocean Data Portal was developed using Sphinx and is published at [wcodp.readthedocs.org](http://wcodp.readthedocs.org).  
 
 Information is organized by topic and edits and contributions are welcome via GitHub.  ReadTheDocs automatically rebuilds the documentation every time a commit is made or a pull request is merged.  
 
