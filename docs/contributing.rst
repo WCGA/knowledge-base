@@ -21,7 +21,11 @@ Criteria for Inclusion
 Relationship to Other Portals
 -------------------------------
 
-To Add
+If your data are already included in another data portal, they may also be available to the WCODP
+
+State and Regional portals, registries, and clearinghouses
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Include content from Appendix A in the current Best Practices Guid
 
 How to Register Data With the West Coast Ocean Data Portal
 -----------------------------------------------------------

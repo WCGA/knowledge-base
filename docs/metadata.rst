@@ -31,6 +31,12 @@ Will include lots of links to other sites here.
 
 https://www.fgdc.gov/metadata/geospatial-metadata-tools
 
+WCODP metadata template can be linked here too.
+
+Validating Your Metadata
+------------------------
+
+
 How Is the Metadata Displayed?
 ------------------------------
 

@@ -17,5 +17,3 @@ Table of Contents
   webservices
   catalogs
   technology
-  glossary
-
