@@ -1,3 +1,4 @@
+===========================================
 West Coast Ocean Data Portal Knowledge Base
 ===========================================
 
@@ -7,13 +8,13 @@ help better inform resource management, policy development, and ocean
 planning on the West Coast of the United States of America.
 
 Table of Contents
------------------
+=================
 
 .. toctree::
   :maxdepth: 3
 
-  contributing
-  metadata
-  webservices
-  catalogs
-  technology
+  Contribute <contribute/contribute>
+  Metadata <metadata/metadata>
+  Webservices <webservices/webservices>
+  Catalogs <catalogs/catalogs>
+  Technology <technology/technology>

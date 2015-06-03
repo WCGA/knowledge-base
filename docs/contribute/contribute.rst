@@ -1,8 +1,9 @@
-Contributing
-============
+==========
+Contribute
+==========
 
-Reasons to Register Your Data
------------------------------
+Why Register Your Data
+======================
 
 * Wider advertisement of data holding to new user groups and stakeholders.
 * Inclusion in decision-making for regional issues like sea level rise adaptation, ocean acidification, and marine planning.
@@ -10,7 +11,7 @@ Reasons to Register Your Data
 * Demonstration of regional collaboration and sharing often required by grant funding agencies. 
 
 Criteria for Inclusion
-----------------------
+======================
 
 * The data must have a metadata record, preferably in FGDC or ISO format :ref:text <`Relationship to Other Portals`>_, and hosted on-line.
 * The metadata must link to web services or direct download of data
@@ -19,15 +20,15 @@ Criteria for Inclusion
 * It is highly recommended that web services be OGC-compliant or exist as an ArcGIS version 10.x REST service.
 
 Relationship to Other Portals
--------------------------------
+=============================
 
 If your data are already included in another data portal, they may also be available to the WCODP
 
 State and Regional portals, registries, and clearinghouses
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 Include content from Appendix A in the current Best Practices Guid
 
 How to Register Data With the West Coast Ocean Data Portal
------------------------------------------------------------
+==========================================================
 If you have data, metadata, and web services that you would like to make accessible via the West Coast Ocean Data Portal:
 
