@@ -13,6 +13,7 @@ Table of Contents
 .. toctree::
   :maxdepth: 3
 
+  Introduction <intro>
   Contribute <contribute/contribute>
   Metadata <metadata/metadata>
   Webservices <webservices/webservices>
