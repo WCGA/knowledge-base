@@ -2,6 +2,8 @@
 Metadata
 ========
 
+Why Create Metadata?
+====================
 
 What Information Is Required?
 =============================

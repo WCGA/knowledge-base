@@ -10,12 +10,12 @@ The West Coast Ocean Data Portal (WCODP) is a project of the `West Coast Governo
 
 How to Use the Knowledge Base
 =============================
-The West Coast Ocean Data Portal Knowledge Base is a *technical* resource for data managers and data partners who would like to participate and share their geospatial metadata, data and/or web services to the larger community of West Coast ocean data users.
+The West Coast Ocean Data Portal Knowledge Base is a *technical* resource for data managers and data partners who would like to participate and share their geospatial metadata, data and/or web services with the larger community of West Coast ocean data users.
 
-This Knowledge Base describes 
- * the steps to register data in the WCODP, 
- * tips, tools, and best practices for developing good metadata and web mapping services, 
- * interoperability of web catalog services, and 
- * details about the technology behind the WCODP.
+This Knowledge Base describes: 
+ * Steps to register data in the WCODP; 
+ * Tips, tools, and best practices for developing good metadata and web mapping services; 
+ * Interoperability of web catalog services; and 
+ * Details about the technology behind the WCODP.
 
 This Knowledge Base is *not* a user guide for end users of the WCODP. 
