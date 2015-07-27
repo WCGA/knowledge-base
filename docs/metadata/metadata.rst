@@ -74,7 +74,7 @@ ISO 19115 was developed by the geospatial community to address specific issues r
 
 .. seealso::
 	* For more information and to acquire the ISO 19115 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020.
-	* NOAA, NCDDC workbork for implementing ISO 19115: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MD-Metadata.pdf	
+	* NOAA, NCDDC workbook for implementing ISO 19115: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MD-Metadata.pdf	
 
 
 ISO 19115-2
@@ -127,6 +127,18 @@ Describe and compare Tools here.   Will not be exhaustive list, but some tips fo
 Will include lots of links to other sites here.
 
 https://www.fgdc.gov/metadata/geospatial-metadata-tools
+
+=================================  =====================================================  =======  =====================================  =====================  =========
+Tool                               URL                                                    Type     Standards                              Requires               Optional
+=================================  =====================================================  =======  =====================================  =====================  =========
+EPA Metadata Editor (EME) v.3.2    https://edg.epa.gov/EME/download.html                  Desktop  FGDC CSDGM                             Windows                ArcGIS 10
+EPA Metadata Editor (EME) v.4.0    https://edg.epa.gov/EME/download.html                  Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
+USGS Metadata Wizard               http://www.sciencebase.gov/metadatawizard              Desktop  FGDC CSDGM                             ArcGIS 10
+MERMAID                            http://www.ncddc.noaa.gov/metadata-standards/mermaid/  Web      FGDC CSDGM, ISO 19115-2 (export only)  web browser, login
+ATRAC                              https://www.ncdc.noaa.gov/atrac/index.html             Web      ISO 19115-2                            web browser, login
+USGS Online Metadata Editor (OME)  http://mercury.ornl.gov/OME/                           Web      FGDC CSDGM                             web browser, login
+=================================  =====================================================  =======  =====================================  =====================  =========
+
 
 WCODP metadata template can be linked here too.
 
