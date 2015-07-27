@@ -58,7 +58,12 @@ If the metadata meets the requirements of the Federal Geographic Data Committee 
 Metadata Standards and Formats
 ==============================
 
-Use of standard metadata formats is critical for interoperability and access by other automated systems and web catalogs for geospatial data discovery and sharing. There are a large number of metadata standards which address the needs of particular user communities. The following standards can be used for data discovery via the West Coast Ocean Data Portal.
+Use of standard metadata formats is critical for interoperability and access by other automated systems and web catalogs for geospatial data discovery and sharing. There are a large number of metadata standards which address the needs of particular user communities. NOAA and FGDC have a broad catalog of resources about metadata standards. 
+
+* http://www.fgdc.gov/metadata/geospatial-metadata-standards
+* http://www.ncddc.noaa.gov/metadata-standards/
+
+The following standards can be used for data discovery via the West Coast Ocean Data Portal.
 
 ISO 19115:2003
 --------------
@@ -69,6 +74,7 @@ ISO 19115 was developed by the geospatial community to address specific issues r
 
 .. seealso::
 	* For more information and to acquire the ISO 19115 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020.
+	* NOAA, NCDDC workbork for implementing ISO 19115: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MD-Metadata.pdf	
 
 
 ISO 19115-2
@@ -80,6 +86,7 @@ ISO 19115-2:2009 extends ISO 19115:2003 by defining the schema required for desc
 
 .. seealso::
 	* For more information and to acquire the ISO 19115-2 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=39229.
+	* NOAA, NCDDC workbook for implementing ISO 19115-2: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf
 
 FGDC CSDGM
 ----------
@@ -90,7 +97,7 @@ The standard commonly referred to as FGDC (although FGDC is the maintenance agen
 The current production version of FGDC is 2.0, from 1998. Since this time, an international standard for geospatial information (ISO 19115) has emerged. Plans have been announced to create a US national geospatial metadata standard as a profile of ISO 19115, and to create version 3.0 of CSDGM as an implementation of that. This work has not yet been finalized.
 
 .. seealso::
-	* For more information on the FGDC standards, see http://www.fgdc.gov/standards/projects/FGDC-standards-projects/metadata/base-metadata/index_html.
+	* For more information on the FGDC standards, see http://www.fgdc.gov/metadata/geospatial-metadata-standards.
 
 Dublin Core
 -----------
@@ -107,8 +114,10 @@ EML
 
 Ecological Markup Language
 
-* EML is a specification intended to support the description of any type of ecological information, including raw data, published research papers, rights information, and research protocols. At the highest level, EML models four primary entities: datasets, literature, software, and protocols.
-* For more information about EML, see http://knb.ecoinformatics.org/software/eml/.
+EML is a specification intended to support the description of any type of ecological information, including raw data, published research papers, rights information, and research protocols. At the highest level, EML models four primary entities: datasets, literature, software, and protocols.
+
+.. seealso::
+	* For more information about EML, see http://knb.ecoinformatics.org/software/eml/.
 
 How to Create Metadata
 ======================
@@ -124,23 +133,33 @@ WCODP metadata template can be linked here too.
 Validating Your Metadata
 ========================
 
+* USGS FGDC CSDGM Validator: http://geo-nsdi.er.usgs.gov/validation/
+* NOAA/NGDC ISO 19115-2 validator: http://www.ngdc.noaa.gov/docucomp/recordServices 
 
 How Is the Metadata Displayed?
 ==============================
 
-This part will explicitly show the translation between the metadata content or Xpaths and where it shows up on the WCODP.  (Because that isn't necessarily intuitive)
+This part will explicitly show the translation between the metadata content or Xpaths and where it shows up on the WCODP.  
 
 Best Practices for Metadata
 ===========================
 
 Content 
 -------
-Guidance on what makes a good title, abstract, etc.
+
+It is very important to provide good information within your metadata to assist people in understanding what the data are about, how it was created, how they can use it, who to contact with questions, and how to access the data.  It may even be helpful to you in the future as the data author to remember key details about creation the data set.  It has been said, that "Metadata is a love note to the future."  
+
+USGS has a very good resource clearly describing what type of information needs to go into the various elements of FGDC CSDGM standard.  
+
+* Metadata in Plain Language: http://geology.usgs.gov/tools/metadata/tools/doc/ctc/
+
+Most advice on content is applicable regardless of the metadata standard you use, but the location of the appropriate content may vary.  Focus on what you would like to know if you were interested in discovering and using someone else's data set.
+
 
 Publishing Great Metadata 
 -------------------------
 
-Tanya Haddad gave the following presentation at the 2014 West Coast Ocean Data Network Meeting:  
+Tanya Haddad gave an excellent presentationa about publishing great metadata at the 2014 West Coast Ocean Data Network Meeting:  
 
 `Presentation Slides <http://network.westcoastoceans.org/wp-content/uploads/2014/12/Haddad_WCGA_Successful_Data_Sharing-1.pdf>`_ 
 
