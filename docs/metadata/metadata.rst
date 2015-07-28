@@ -124,8 +124,6 @@ How to Create Metadata
 
 There are many different tools available to create geospatial metadata.  This knowledge base does not intend to cover all the tools available, but to provide information about some tools that can be used to create valid geospatial metadata that can be successfully harvested and displayed by the WCODP.
 
-In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant (see `Validating Your Metadata`_), will successfully validate and display in the WCODP.  Because the ISO standards are more comprehensive, more flexible, and more recently adopted, successful validation of an ISO 19115 or ISO 19115-2 record via an external tool, does not always guarantee successful validation and display in the WCODP.  In these cases, some testing and iterations with the WCODP coordinator may be needed.
-
 Following are some geospatial metadata tools that have been used successfully to author standards-compliant metadata for harvest by the WCODP:
 
 ====================================  =======  =====================================  =====================  =========
@@ -156,8 +154,13 @@ If the metadata are simple enough, some metadata creators prefer to use a text e
 	* http://www.fgdc.gov/metadata/iso-metadata-editor-review
 	* http://www.usgs.gov/datamanagement/describe/metadata.php#advanced-users
 
+
 Validating Your Metadata
 ========================
+
+Validating metadata content and format is an essential step to assure that your metadata will be useful to others as well as accessible to various portals and metadata catalogs such as the WCODP
+
+In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant, will successfully validate and display in the WCODP.  Because the ISO standards are more comprehensive, more flexible, and more recently adopted, successful validation of an ISO 19115 or ISO 19115-2 record via an external tool, does not always guarantee successful validation and display in the WCODP.  In these cases, some testing and iterations with the WCODP coordinator may be needed.
 
 * USGS FGDC CSDGM Validator: http://geo-nsdi.er.usgs.gov/validation/
 * NOAA/NGDC ISO 19115-2 validator: http://www.ngdc.noaa.gov/docucomp/recordServices 
@@ -187,7 +190,13 @@ Publishing Great Metadata
 
 Tanya Haddad gave an excellent presentationa about publishing great metadata at the 2014 West Coast Ocean Data Network Meeting:  
 
-`Presentation Slides <http://network.westcoastoceans.org/wp-content/uploads/2014/12/Haddad_WCGA_Successful_Data_Sharing-1.pdf>`_ 
+`Publishing Great Metadata Presentation Slides <http://network.westcoastoceans.org/wp-content/uploads/2014/12/Haddad_WCGA_Successful_Data_Sharing-1.pdf>`_ 
 
-Presentation Video Links will go here too.
-
+Publishing Great Metadata Presentation Videos:
+	1. `Introduction to Sharing (3:15) <https://www.youtube.com/watch?v=eXHrVy5Xhj4>`_
+	2. `Metadata Overview (7:29) <https://www.youtube.com/watch?v=Id3nawOxXio>`_
+	3. `Metadata Standards (10:43) <https://www.youtube.com/watch?v=DqyUopruWlU>`_
+	4. `Metadata Tools (7:27) <https://www.youtube.com/watch?v=jS9yaZzmnME>`_
+	5. `Best Practices (7:43) <https://www.youtube.com/watch?v=EHQqC2AexxM>`_
+	6. `Sharing and Publishing (8:51) <https://www.youtube.com/watch?v=XKHeOlF1HUs>`_
+	7. `Metadata Catalogs (5:16) <https://www.youtube.com/watch?v=5LgncgpFvXM>`_
