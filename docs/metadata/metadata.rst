@@ -122,25 +122,39 @@ EML is a specification intended to support the description of any type of ecolog
 How to Create Metadata
 ======================
 
-Describe and compare Tools here.   Will not be exhaustive list, but some tips for using tools as it relates to WCODP and recommendations based on our experiences.   
+There are many different tools available to create geospatial metadata.  This knowledge base does not intend to cover all the tools available, but to provide information about some tools that can be used to create valid geospatial metadata that can be successfully harvested and displayed by the WCODP.
 
-Will include lots of links to other sites here.
+In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant (see `Validating Your Metadata`_), will successfully validate and display in the WCODP.  Because the ISO standards are more comprehensive, more flexible, and more recently adopted, successful validation of an ISO 19115 or ISO 19115-2 record via an external tool, does not always guarantee successful validation and display in the WCODP.  In these cases, some testing and iterations with the WCODP coordinator may be needed.
 
-https://www.fgdc.gov/metadata/geospatial-metadata-tools
+Following are some geospatial metadata tools that have been used successfully to author standards-compliant metadata for harvest by the WCODP:
 
-=================================  =====================================================  =======  =====================================  =====================  =========
-Tool                               URL                                                    Type     Standards                              Requires               Optional
-=================================  =====================================================  =======  =====================================  =====================  =========
-EPA Metadata Editor (EME) v.3.2    https://edg.epa.gov/EME/download.html                  Desktop  FGDC CSDGM                             Windows                ArcGIS 10
-EPA Metadata Editor (EME) v.4.0    https://edg.epa.gov/EME/download.html                  Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
-USGS Metadata Wizard               http://www.sciencebase.gov/metadatawizard              Desktop  FGDC CSDGM                             ArcGIS 10
-MERMAID                            http://www.ncddc.noaa.gov/metadata-standards/mermaid/  Web      FGDC CSDGM, ISO 19115-2 (export only)  web browser, login
-ATRAC                              https://www.ncdc.noaa.gov/atrac/index.html             Web      ISO 19115-2                            web browser, login
-USGS Online Metadata Editor (OME)  http://mercury.ornl.gov/OME/                           Web      FGDC CSDGM                             web browser, login
-=================================  =====================================================  =======  =====================================  =====================  =========
+====================================  =======  =====================================  =====================  =========
+Tool                                  Type     Standards                              Requires               Optional
+====================================  =======  =====================================  =====================  =========
+`EPA Metadata Editor (EME) v.3.2`_    Desktop  FGDC CSDGM                             Windows OS             ArcGIS 10
+`EPA Metadata Editor (EME) v.4.0`_    Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
+`USGS Metadata Wizard`_               Desktop  FGDC CSDGM                             ArcGIS 10
+`MERMAID`_                            Web      FGDC CSDGM, ISO 19115-2 (export only)  web browser, login
+`ATRAC`_                              Web      ISO 19115-2                            web browser, login
+`USGS Online Metadata Editor (OME)`_  Web      FGDC CSDGM                             web browser, login
+====================================  =======  =====================================  =====================  =========
 
+.. _EPA Metadata Editor (EME) v.3.2: https://edg.epa.gov/EME/download.html
+.. _EPA Metadata Editor (EME) v.4.0: https://edg.epa.gov/EME/download.html
+.. _USGS Metadata Wizard: http://www.sciencebase.gov/metadatawizard 
+.. _MERMAID: http://www.ncddc.noaa.gov/metadata-standards/mermaid/
+.. _ATRAC: https://www.ncdc.noaa.gov/atrac/index.html
+.. _USGS Online Metadata Editor (OME): http://mercury.ornl.gov/OME/
 
-WCODP metadata template can be linked here too.
+.. seealso::
+	* https://www.fgdc.gov/metadata/geospatial-metadata-tools
+	* http://service.ncddc.noaa.gov/cdn/metadata-training-materials/Intro-to-ISO/5_ToolsforISOMetadata.pdf
+	* http://www.fgdc.gov/metadata/iso-metadata-editor-review
+	* http://www.usgs.gov/datamanagement/describe/metadata.php#advanced-users
+
+For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options), can be used to create, edit, and export FGDC-compliant metadata.  However, the other styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003), have not been extensively tested with the WCODP, but have so far had mixed results.  
+
+If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an ISO 19115 metadata template that contributors can use. (need link).  
 
 Validating Your Metadata
 ========================

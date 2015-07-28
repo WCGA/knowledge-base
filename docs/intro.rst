@@ -25,8 +25,8 @@ This Knowledge Base describes:
 
 This Knowledge Base is *not* a user guide for end users of the WCODP. 
 
-.. _register: /contribute/contribute
-.. _metadata: /metadata/metadata
-.. _web mapping services: /webservices/webservices
-.. _web catalog services: /catalogs/catalogs
-.. _technology: /technology/technology
+.. _register: /contribute/contribute.html
+.. _metadata: /metadata/metadata.html
+.. _web mapping services: /webservices/webservices.html
+.. _web catalog services: /catalogs/catalogs.html
+.. _technology: /technology/technology.html

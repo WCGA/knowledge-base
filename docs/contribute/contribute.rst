@@ -37,9 +37,6 @@ Specifically,
 * The metadata should link to web services and/or a URL to download the data.
 * It is highly recommended that web services be OGC-compliant or exist as an ArcGIS version 10.x REST service.
 
-.. sidebar:: TODD
-
-	The contributors page looks like it's missing a few sources.  Is this page actively updated?  Also, some links are pointing to dev server and some pointing to production, so the counts are off.
 
 Relationship to Other Portals
 =============================
