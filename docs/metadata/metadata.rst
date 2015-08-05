@@ -144,6 +144,16 @@ Tool                                  Type     Standards                        
 .. _ATRAC: https://www.ncdc.noaa.gov/atrac/index.html
 .. _USGS Online Metadata Editor (OME): http://mercury.ornl.gov/OME/
 
+Allison Bailey presented a Technical Training Webinar (July 2015) to West Coast Ocean Data Network members highlighting some of these metadata tools, tool capabilities, and tips and tricks for creating metadata that can be easily consumed by the WCODP.
+
+Metadata Creation Tools Webinar Videos:
+	1. `Knowledge Base (3:27) <https://www.youtube.com/watch?v=ePqZnL7CtlQ>`_
+	2. `EPA Metadata Editor (EME) v.4.0 - ISO 19115 (10:24) <https://www.youtube.com/watch?v=klhhIRJTiSk>`_
+	3. `EPA Metadata Editor (EME) v.3.2 - FGDC CSDGM (6:41) <https://www.youtube.com/watch?v=LjqtCM2tBQk>`_
+	4. `ATRAC Editor - ISO 19115-2 (8:51) <https://www.youtube.com/watch?v=T8bUR3EveB0>`_
+	5. `Metadata Validation (3:02) <https://www.youtube.com/watch?v=7kGj3OdVUOA>`_
+	6. `Questions and Wrap-up (11:21) <https://www.youtube.com/watch?v=qc5YImj9oVQ>`_
+
 For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options), can be used to create, edit, and export FGDC-compliant metadata.  However, the other ArcCatalog styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003), have not been extensively tested with the WCODP, but have so far had mixed results.  
 
 If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an ISO 19115 metadata template that contributors can use. (need link).  
