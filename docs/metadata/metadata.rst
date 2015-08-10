@@ -52,7 +52,7 @@ For the purposes of data discovery and access, the West Coast Ocean Data Portal 
 	* Distributor
 * URLs for data download, web services, kml, web application, documentation
 
-If the metadata meets the requirements of the Federal Geographic Data Committee endorsed standards, (https://www.fgdc.gov/metadata/geospatial-metadata-standards), it will definitely meet the requirements of the West Coast Ocean Data Portal.
+If the metadata meets the requirements of the Federal Geographic Data Committee (FGDC) endorsed standards, (https://www.fgdc.gov/metadata/geospatial-metadata-standards), it will definitely meet the requirements of the West Coast Ocean Data Portal.
 
 
 Metadata Standards and Formats
@@ -144,9 +144,9 @@ Tool                                  Type     Standards                        
 .. _ATRAC: https://www.ncdc.noaa.gov/atrac/index.html
 .. _USGS Online Metadata Editor (OME): http://mercury.ornl.gov/OME/
 
-Allison Bailey presented a Technical Training Webinar (July 2015) to West Coast Ocean Data Network members highlighting some of these metadata tools, tool capabilities, and tips and tricks for creating metadata that can be easily consumed by the WCODP.
+Allison Bailey presented a Technical Training Webinar to West Coast Ocean Data Network members highlighting some of these metadata tools, tool capabilities, and tips and tricks for creating metadata that can be easily consumed by the WCODP.
 
-Metadata Creation Tools Webinar Videos:
+Metadata Creation Tools Webinar Videos (July 2015):
 	1. `Knowledge Base (3:27) <https://www.youtube.com/watch?v=ePqZnL7CtlQ>`_
 	2. `EPA Metadata Editor (EME) v.4.0 - ISO 19115 (10:24) <https://www.youtube.com/watch?v=klhhIRJTiSk>`_
 	3. `EPA Metadata Editor (EME) v.3.2 - FGDC CSDGM (6:41) <https://www.youtube.com/watch?v=LjqtCM2tBQk>`_
@@ -210,3 +210,17 @@ Publishing Great Metadata Presentation Videos:
 	5. `Best Practices (7:43) <https://www.youtube.com/watch?v=EHQqC2AexxM>`_
 	6. `Sharing and Publishing (8:51) <https://www.youtube.com/watch?v=XKHeOlF1HUs>`_
 	7. `Metadata Catalogs (5:16) <https://www.youtube.com/watch?v=5LgncgpFvXM>`_
+
+Additional Resources
+--------------------
+
+Although both FGDC CSDGM and ISO-191** standards are currently endorsed by the FGDC, federal agencies are being encouraged to transition from the older, CSDGM standard to ISO metadata as soon as they are able.   To share the most current information about experiences, strategies, and resources for implementing ISO metadata, FGDC hosts a monthly webinar and has a library of resources from past webinars.  
+	* https://www.fgdc.gov/metadata/events/iso-geospatial-metadata-implementation-forum
+
+NOAA, National Center for Environmental Information (NCEI), formerly National Coastal Data Development Center (NCDDC), conducts a variety of metadata trainings and has an excellent set of material from these courses:
+	* http://www.ncddc.noaa.gov/metadata-standards/metadata-training/
+	* ftp://ftp.ncddc.noaa.gov/pub/Metadata/Online_ISO_Training/
+
+EPA has provides detailed and clear guidance for developing metadata.  Some of the information is focused on EPA-specific content, but the general concepts and best practices can be applied to any metadata effort.
+	* https://edg.epa.gov/EME/pdfs/GenericMetadataGuide.pdf
+	* https://edg.epa.gov/EME/resources.html
