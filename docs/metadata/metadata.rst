@@ -63,7 +63,7 @@ Use of standard metadata formats is critical for interoperability and access by 
 * http://www.fgdc.gov/metadata/geospatial-metadata-standards
 * http://www.ncddc.noaa.gov/metadata-standards/
 
-.. seealso:
+.. seealso::
 	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
 	* http://www.dlib.indiana.edu/~jenlrile/metadatamap/
 
@@ -214,6 +214,7 @@ Publishing Great Metadata Presentation Videos:
 	5. `Best Practices (7:43) <https://www.youtube.com/watch?v=EHQqC2AexxM>`_
 	6. `Sharing and Publishing (8:51) <https://www.youtube.com/watch?v=XKHeOlF1HUs>`_
 	7. `Metadata Catalogs (5:16) <https://www.youtube.com/watch?v=5LgncgpFvXM>`_
+
 
 Additional Resources
 --------------------
