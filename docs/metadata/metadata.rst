@@ -63,7 +63,11 @@ Use of standard metadata formats is critical for interoperability and access by 
 * http://www.fgdc.gov/metadata/geospatial-metadata-standards
 * http://www.ncddc.noaa.gov/metadata-standards/
 
-The following standards can be used for data discovery via the West Coast Ocean Data Portal.
+.. seealso:
+	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
+	* http://www.dlib.indiana.edu/~jenlrile/metadatamap/
+
+The following standards can be used for data discovery via the West Coast Ocean Data Portal:
 
 ISO 19115:2003
 --------------
@@ -214,7 +218,7 @@ Publishing Great Metadata Presentation Videos:
 Additional Resources
 --------------------
 
-Although both FGDC CSDGM and ISO-191** standards are currently endorsed by the FGDC, federal agencies are being encouraged to transition from the older, CSDGM standard to ISO metadata as soon as they are able.   To share the most current information about experiences, strategies, and resources for implementing ISO metadata, FGDC hosts a monthly webinar and has a library of resources from past webinars.  
+Although both FGDC CSDGM and ISO-191xx standards are currently endorsed by the FGDC, federal agencies are being encouraged to transition from the older, CSDGM standard to ISO metadata as soon as they are able.   To share the most current information about experiences, strategies, and resources for implementing ISO metadata, FGDC hosts a monthly webinar and has a library of resources from past webinars.  
 	* https://www.fgdc.gov/metadata/events/iso-geospatial-metadata-implementation-forum
 
 NOAA, National Center for Environmental Information (NCEI), formerly National Coastal Data Development Center (NCDDC), conducts a variety of metadata trainings and has an excellent set of material from these courses:
