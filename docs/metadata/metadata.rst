@@ -65,7 +65,6 @@ Use of standard metadata formats is critical for interoperability and access by 
 
 .. seealso::
 	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
-	* http://www.dlib.indiana.edu/~jenlrile/metadatamap/
 
 The following standards can be used for data discovery via the West Coast Ocean Data Portal:
 
@@ -196,6 +195,8 @@ USGS has a very good resource clearly describing what type of information needs 
 
 * Metadata in Plain Language: http://geology.usgs.gov/tools/metadata/tools/doc/ctc/
 
+There is also some good information about metadata content in this document for Geospatial Platform/data.gov: https://www.geoplatform.gov/sites/default/files/document_library/MetadataPractices07-2013_Linked_0.pdf
+
 Most advice on content is applicable regardless of the metadata standard you use, but the location of the appropriate content may vary.  Focus on what you would like to know if you were interested in discovering and using someone else's data set.
 
 
@@ -220,12 +221,15 @@ Additional Resources
 --------------------
 
 Although both FGDC CSDGM and ISO-191xx standards are currently endorsed by the FGDC, federal agencies are being encouraged to transition from the older, CSDGM standard to ISO metadata as soon as they are able.   To share the most current information about experiences, strategies, and resources for implementing ISO metadata, FGDC hosts a monthly webinar and has a library of resources from past webinars.  
+
 	* https://www.fgdc.gov/metadata/events/iso-geospatial-metadata-implementation-forum
 
 NOAA, National Center for Environmental Information (NCEI), formerly National Coastal Data Development Center (NCDDC), conducts a variety of metadata trainings and has an excellent set of material from these courses:
+
 	* http://www.ncddc.noaa.gov/metadata-standards/metadata-training/
 	* ftp://ftp.ncddc.noaa.gov/pub/Metadata/Online_ISO_Training/
 
 EPA has provides detailed and clear guidance for developing metadata.  Some of the information is focused on EPA-specific content, but the general concepts and best practices can be applied to any metadata effort.
+
 	* https://edg.epa.gov/EME/pdfs/GenericMetadataGuide.pdf
 	* https://edg.epa.gov/EME/resources.html
