@@ -25,7 +25,9 @@ In the West Coast Ocean Data Portal (WCODP), web mapping services are used to fa
 	:target: http://portal.westcoastoceans.org/discover/#?text=humpback%20pacific
 	:align: center
 
-For example, if you select the **VISUALIZE** link in the example WCODP record above, it opens the associated web mapping service in the WCODP map viewer: http://maps.westcoastoceans.org/visualize/#humpback-whale-pacific-summer
+For example, if you select the **VISUALIZE** link in the example WCODP record above, it opens the associated web mapping service in the `WCODP map viewer`_. 
+
+.. _WCODP map viewer: http://maps.westcoastoceans.org/visualize/#humpback-whale-pacific-summer
 
 Types of Web Services
 =====================
