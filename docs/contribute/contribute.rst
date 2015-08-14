@@ -47,7 +47,7 @@ State and Regional Portals, Registries, and Clearinghouses
 ----------------------------------------------------------
 
 **State Registries**
- * California Geoportal: http://portal.gis.ca.gov/geoportal/catalog/main/home.page
+ * California Geoportal: 						http://portal.gis.ca.gov/geoportal/catalog/main/home.page
  * Oregon Spatial Data Library:                 http://spatialdata.oregonexplorer.info/geoportal/catalog/main/home.page
  * Washington State Geospatial Clearinghouse:   http://metadata.gis.washington.edu/geoportal/catalog/main/home.page
 
