@@ -18,13 +18,14 @@ Web services provide an open interoperable and highly efficient framework for us
 
 Web mapping services give the publisher control over how the data are displayed and the types of capabilities that the end-user can access, such as query, edit, geoprocess, download, etc.  Publishing a web mapping service facilitates end-user access to the most current and authoritative data because the web service address (URL) remains unchanged, while data supporting the service can be modified and updated.   
 
-In the West Coast Ocean Data Portal (WCODP), web mapping services are used to facilitate data discovery by allowing end-users to preview and visualize the data on a map.  For example, if you selected the **VISUALIZE** link in the example WCODP record below, it would open the associated web mapping service in the WCODP map viewer: http://maps.westcoastoceans.org/visualize/#humpback-whale-pacific-summer 
+In the West Coast Ocean Data Portal (WCODP), web mapping services are used to facilitate data discovery by allowing end-users to preview and visualize the data on a map.   
 
 .. image:: images/Visualize_example.png
-	:scale: 5 %
+	:scale: 50 %
 	:target: http://portal.westcoastoceans.org/discover/#?text=humpback%20pacific
 	:align: center
 
+For example, if you select the **VISUALIZE** link in the example WCODP record above, it opens the associated web mapping service in the WCODP map viewer: http://maps.westcoastoceans.org/visualize/#humpback-whale-pacific-summer
 
 Types of Web Services
 =====================
