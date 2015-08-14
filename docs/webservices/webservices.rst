@@ -21,7 +21,7 @@ Web mapping services give the publisher control over how the data are displayed 
 In the West Coast Ocean Data Portal (WCODP), web mapping services are used to facilitate data discovery by allowing end-users to preview and visualize the data on a map.   
 
 .. image:: images/Visualize_example.png
-	:scale: 50 %
+	:scale: 40 %
 	:target: http://portal.westcoastoceans.org/discover/#?text=humpback%20pacific
 	:align: center
 
