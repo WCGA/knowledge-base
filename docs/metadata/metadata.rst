@@ -203,7 +203,7 @@ Most advice on content is applicable regardless of the metadata standard you use
 Publishing Great Metadata 
 -------------------------
 
-Tanya Haddad gave an excellent presentationa about publishing great metadata at the 2014 West Coast Ocean Data Network Meeting:  
+Tanya Haddad gave an excellent presentation about publishing great metadata at the 2014 West Coast Ocean Data Network Meeting:  
 
 `Publishing Great Metadata Presentation Slides <http://network.westcoastoceans.org/wp-content/uploads/2014/12/Haddad_WCGA_Successful_Data_Sharing-1.pdf>`_ 
 

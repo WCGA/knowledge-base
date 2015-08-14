@@ -84,17 +84,52 @@ ESRI has its own proprietary web mapping services that are usually referred to a
 How to Create Web Mapping Services
 ==================================
 
-foo
+There are a variety of software packages or mapping engines that can be used to create web mapping services.
+
+	* `ArcGIS for Server`_ can produce ArcGIS REST services and some OGC services, including WMS, WFS, WPS, WMTS, and WCS.
+	* `ArcGIS Online`_ can also be used to create two types of ArcGIS REST Services, called `hosted layers`_.   However, the capabilities of these services are more limited than the analogous service created by ArcGIS for Server.
+	* `Geoserver`_ produces OGC-standard WMS, WCS, WFS, WMTS, WPS, and CSW services.
+	* `Mapserver`_ also produces OCG-standard services, including, WMS, WCS, WFS, and SOS
+
+.. _ArcGIS for Server: http://server.arcgis.com/en/
+.. _ArcGIS Online: https://doc.arcgis.com/en/arcgis-online/
+.. _hosted layers: https://doc.arcgis.com/en/arcgis-online/share-maps/hosted-web-layers.htm
+.. _Geoserver: http://geoserver.org/
+.. _Mapserver: http://mapserver.org/index.html
 
 Best Practices for Creating Services
 ====================================
 
-Put Anna's presentation links here
+* Where possible provide OGC and sector/vendor-specific services and to ensure maximum interoperability with a variety of systems.
+	* Any data that is served from an ArcGIS for Server as Esri REST services can be easily also served as OGC services without a lot of secondary effort, simply by ‘enabling’ OGC services in the ArcGIS for Server settings. Whenever possible/practical, both options should be enabled as best practice.
+* Web services should specify the version and last update date for the source data, as well as link to the source metadata.
+* In order to support the broadest range of user needs, from casual users viewing data through web browser to desktop .NET developers, web services should provide both REST and SOAP-based services.
+* Use a map server that supports all OCG standards applicable to the project objectives, preferably WMS, WMTS, and WFS at a minimum. GeoServer and ArcGIS for Server provide two popular options.
+* If developing a slippy map, render and serve all data that does not require frequent update as cached tiles, in compliance with the WMTS standard. GeoWebCache, which extends GeoServer, is a popular tile server.
+* If serving a single map image or data that requires frequent update but not feature queries, provide a standards-compliant WMS.
+* If serving data with individual features that may be queried or changed by the client, provide a standards-compliant WFS.
+* If providing multiple data sources and/or services to the public, also provide a CSW with ISO-compliant metadata for each service.
+
+Publishing Great Web Services
+-----------------------------
+
+Anna Verrill gave an excellent presentation about publishing great web services at the 2014 West Coast Ocean Data Network Meeting.  
+
+`Publishing Great Web Services Presentation Slides <http://network.westcoastoceans.org/wp-content/uploads/2014/11/WCGA-Network-Meeting-Web-Services-Traning-Session.pdf>`_ 
+
+Publishing Great Web Services Presentation Videos:
+	1. `Intro and Data Management (5:03) <https://www.youtube.com/watch?v=PSNHXclEEMU>`_
+	2. `Map Preparation (8:25) <https://www.youtube.com/watch?v=2GUcCWgc9vY>`_
+	3. `Web Services Overview (2:56) <https://www.youtube.com/watch?v=Aa-BXU9q2kA>`_
+	4. `Best Practices (3:51) <https://www.youtube.com/watch?v=tG4b0gn3mQg>`_
+	5. `Conclusion (1:57) <https://www.youtube.com/watch?v=WcolSkenxoY>`_
 
 Projection/Coordinate System
 ----------------------------
 
-foo
+The base maps for most web mapping applications use the Web Mercator projection, `EPSG:3857`_.  Although web mapping services can be projected on-the-fly to match the base map, your mapping service will have the best performance if all the layers are in the same projection.  Therefore, it is recommended to use Web Mercator (EPSG:3857) for your web mapping services.  In ArcGIS software, it is referred to as WGS 1984 Web Mercator (Auxiliary Sphere).
+
+.. _EPSG:3857: https://en.wikipedia.org/wiki/Web_Mercator#EPSG:3857
 
 Cartography
 -----------
