@@ -80,6 +80,10 @@ ESRI has its own proprietary web mapping services that are usually referred to a
 .. _Geoprocessing Service: http://server.arcgis.com/en/server/latest/publish-services/windows/what-is-a-geoprocessing-service-.htm
 .. _Image Service: http://server.arcgis.com/en/server/latest/publish-services/windows/key-concepts-for-image-services.htm
 
+.. seealso::
+	
+	Geospatial Standards and Operational Policies (Natural Resources Canada)
+		http://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8902
 
 How to Create Web Mapping Services
 ==================================
@@ -100,7 +104,7 @@ There are a variety of software packages or mapping engines that can be used to 
 Best Practices for Creating Services
 ====================================
 
-* Where possible provide OGC and sector/vendor-specific services and to ensure maximum interoperability with a variety of systems.
+* Where possible provide OGC and sector/vendor-specific services to ensure maximum interoperability with a variety of systems.
 	* Any data that is served from an ArcGIS for Server as Esri REST services can be easily also served as OGC services without a lot of secondary effort, simply by ‘enabling’ OGC services in the ArcGIS for Server settings. Whenever possible/practical, both options should be enabled as best practice.
 * Web services should specify the version and last update date for the source data, as well as link to the source metadata.
 * In order to support the broadest range of user needs, from casual users viewing data through web browser to desktop .NET developers, web services should provide both REST and SOAP-based services.
@@ -134,4 +138,13 @@ The base maps for most web mapping applications use the Web Mercator projection,
 Cartography
 -----------
 
-foo
+Cartographic advice for web services goes here.
+
+Additional Resources
+--------------------
+
+	* `Tools and Best Practices for Coastal Web Maps <http://www.northlandia.com/pdf/coastalwebmaps.pdf>`_
+	* Authoring web maps using ArcGIS:
+		* http://desktop.arcgis.com/en/desktop/latest/map/publish-map-services/map-authoring-considerations.htm
+		* http://resources.arcgis.com/en/communities/mapping/home/017w0000000z000000.htm
+		* http://doc.arcgis.com/en/arcgis-online/reference/best-practices-layers.htm
