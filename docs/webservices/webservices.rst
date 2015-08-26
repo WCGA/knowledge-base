@@ -144,7 +144,8 @@ Additional Resources
 --------------------
 
 	* `Tools and Best Practices for Coastal Web Maps <http://www.northlandia.com/pdf/coastalwebmaps.pdf>`_
-	* Authoring web maps using ArcGIS:
-		* http://desktop.arcgis.com/en/desktop/latest/map/publish-map-services/map-authoring-considerations.htm
-		* http://resources.arcgis.com/en/communities/mapping/home/017w0000000z000000.htm
-		* http://doc.arcgis.com/en/arcgis-online/reference/best-practices-layers.htm
+	* Authoring web maps using ArcGIS/ESRI products:
+		* `Map Authoring Considerations - ArcMap <http://desktop.arcgis.com/en/desktop/latest/map/publish-map-services/map-authoring-considerations.htm>`_
+		* `Authoring Content for Web Maps - ArcGIS <http://resources.arcgis.com/en/communities/mapping/home/017w0000000z000000.htm>`_
+		* `ArcGIS Online Best Practices for Layers <http://doc.arcgis.com/en/arcgis-online/reference/best-practices-layers.htm>`_
+		* `Best Practices for Designing Effective Map Services (video) <http://video.esri.com/watch/2602/best-practices-for-designing-effective-map-services>`_
