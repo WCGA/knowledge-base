@@ -72,33 +72,32 @@ Catalog Server Software
 
 PyCSW
 -----
-
-The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including CKAN, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
-
 .. sidebar:: PyCSW Sites
 	
 	* `Inside Idaho <http://www.insideidaho.org/>`_
 	* `OpenDataPhilly <https://www.opendataphilly.org/>`_
 
+The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including CKAN, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
+
 
 GeoNetwork
 ----------
-
-`GeoNetwork`_ is a mature data catalog product and is one of the flagship projects of OSGeo.   It is populare outside of the United States and has excellent support fo the EU INSPIRE Initiative. GeoNetwork is increasingly developed in lock-step with other open source GIS projects including GeoServer, GeoWebCache, and GeoNode.
-
 .. sidebar:: GeoNetwork Site
 
 	* `Oregon Coastal Atlas <http://www.coastalatlas.net/>`_
 
+`GeoNetwork`_ is a mature data catalog product and is one of the flagship projects of OSGeo.   It is populare outside of the United States and has excellent support fo the EU INSPIRE Initiative. GeoNetwork is increasingly developed in lock-step with other open source GIS projects including GeoServer, GeoWebCache, and GeoNode.
+
+
 ESRI Geoportal Server
 ---------------------
-
-`ESRI Geoportal`_ is a mature data catalog product created by ESRI, and is now open source.  It is in widespread use by state and federal agencies that have traditional GIS departments.  It is used on the backend of the West Coast Ocean Data Portal.
 
 .. sidebar:: ESRI Geoportal Sites
 
 	* `Oregon Spatial Data Library <http://spatialdata.oregonexplorer.info/geoportal/catalog/main/home.page>`_
 	* `National Geophysical Data Center Geoportal <http://www.ngdc.noaa.gov/metadata>`_
+
+`ESRI Geoportal`_ is a mature data catalog product created by ESRI, and is now open source.  It is in widespread use by state and federal agencies that have traditional GIS departments.  It is used on the backend of the West Coast Ocean Data Portal.
 
 .. seealso::
 
@@ -106,22 +105,23 @@ ESRI Geoportal Server
 
 CKAN
 ----
-`CKAN`_ was created by the Open Knowledge Foundation (`OKFN`_) in the United Kingdom and is the data catalog platform behind data.gov.uk.  CKAN is now beginning to catch on in the United States.  It was chosen to become the data catalog behind data.gov and geo.data.gov.  CKAN now employs PyCSW as its CSW engine.
-
 .. sidebar:: CKAN Site
 
 	* `Data.gov <http://www.data.gov/>`_
 
+`CKAN`_ was created by the Open Knowledge Foundation (`OKFN`_) in the United Kingdom and is the data catalog platform behind data.gov.uk.  CKAN is now beginning to catch on in the United States.  It was chosen to become the data catalog behind data.gov and geo.data.gov.  CKAN now employs PyCSW as its CSW engine.
+
+
 THREDDS Data Server (TDS)
 -------------------------
-
-`THREDDS Data Server (TDS)`_ is a web server that provides metadata and data access for scientific datasets using OPenDAP, OGC, WMS, and WCS, HTTP, and other remote data access protocols.  TDS can be used to create virtual directories of available data and their associated metadata and present a combined file that a user seas and can access as a single file containing data.  It is developed by Unidata and is in widespread use by NOAA offices and the Ocean Observing Community.
 
 .. sidebar:: THREDDS Sites
 
 	* `CENCOOS <http://www.cencoos.org/data/access>`_
 	* `SCCOOS <http://sccoos-obs0.ucsd.edu/thredds/catalog.html>`_
 	* `IOOS <http://catalog.ioos.us/>`_
+
+`THREDDS Data Server (TDS)`_ is a web server that provides metadata and data access for scientific datasets using OPenDAP, OGC, WMS, and WCS, HTTP, and other remote data access protocols.  TDS can be used to create virtual directories of available data and their associated metadata and present a combined file that a user seas and can access as a single file containing data.  It is developed by Unidata and is in widespread use by NOAA offices and the Ocean Observing Community.
 
 .. seealso::
 
