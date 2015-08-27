@@ -5,7 +5,7 @@ Catalogs
 Importance of Catalogs
 ======================
 
-Catalog services are a special kind of web service used to discover, browse, and query standardized geospatial metadata records. A key component of the technology underlying the West Coast Ocean Data Portal (WCODP) is ESRI's Geoportal Server, an open source catalog server.  
+Catalog services are a type of web service used to discover, browse, and query standardized geospatial metadata records. A key component of the technology underlying the West Coast Ocean Data Portal (WCODP) is ESRI's Geoportal Server, an open source catalog server.  
 
 Because of standardized interface specifications, clients of different origins and with potentially different focuses can access this technology and the geospatial metadata to which it provides potential access.  Since these interfaces are standardized, a major role in the development of catalog services is left to develpers, defining information models which can be utilized by these interfaces and yet remain independent of the underlying metadata. 
 
@@ -42,7 +42,7 @@ The format of each metadata record is defined in the standard only as XML, but i
 
 CSW Requests include:
 
-	**GetCapabilities**
+	GetCapabilities
 		returns the properties of requests that are accepted by the server
 
 	DescribeRecord
@@ -67,5 +67,77 @@ CSW Requests include:
 .. _CSW: http://www.opengeospatial.org/standards/cat
 
 
+Catalog Server Software
+=======================
+
+PyCSW
+-----
+
+The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including CKAN, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
+
+.. sidebar:: PyCSW Sites
+	
+	* `Inside Idaho <http://www.insideidaho.org/>`_
+	* `OpenDataPhilly <https://www.opendataphilly.org/>`_
+
+
+GeoNetwork
+----------
+
+`GeoNetwork`_ is a mature data catalog product and is one of the flagship projects of OSGeo.   It is populare outside of the United States and has excellent support fo the EU INSPIRE Initiative. GeoNetwork is increasingly developed in lock-step with other open source GIS projects including GeoServer, GeoWebCache, and GeoNode.
+
+.. sidebar:: GeoNetwork Site
+
+	* `Oregon Coastal Atlas <http://www.coastalatlas.net/>`_
+
+ESRI Geoportal Server
+---------------------
+
+`ESRI Geoportal`_ is a mature data catalog product created by ESRI, and is now open source.  It is in widespread use by state and federal agencies that have traditional GIS departments.  It is used on the backend of the West Coast Ocean Data Portal.
+
+.. sidebar:: ESRI Geoportal Sites
+
+	* `Oregon Spatial Data Library <http://spatialdata.oregonexplorer.info/geoportal/catalog/main/home.page>`_
+	* `National Geophysical Data Center Geoportal <http://www.ngdc.noaa.gov/metadata>`_
+
+.. seealso::
+
+	`ESRI Geoportal Server Wiki <https://github.com/Esri/geoportal-server/wiki>`_
+
+CKAN
+----
+`CKAN`_ was created by the Open Knowledge Foundation (`OKFN`_) in the United Kingdom and is the data catalog platform behind data.gov.uk.  CKAN is now beginning to catch on in the United States.  It was chosen to become the data catalog behind data.gov and geo.data.gov.  CKAN now employs PyCSW as its CSW engine.
+
+.. sidebar:: CKAN Site
+
+	* `Data.gov <http://www.data.gov/>`_
+
+THREDDS Data Server (TDS)
+-------------------------
+
+`THREDDS Data Server (TDS)`_ is a web server that provides metadata and data access for scientific datasets using OPenDAP, OGC, WMS, and WCS, HTTP, and other remote data access protocols.  TDS can be used to create virtual directories of available data and their associated metadata and present a combined file that a user seas and can access as a single file containing data.  It is developed by Unidata and is in widespread use by NOAA offices and the Ocean Observing Community.
+
+.. sidebar:: THREDDS Sites
+
+	* `CENCOOS <http://www.cencoos.org/data/access>`_
+	* `SCCOOS <http://sccoos-obs0.ucsd.edu/thredds/catalog.html>`_
+	* `IOOS <http://catalog.ioos.us/>`_
+
+.. seealso::
+
+	http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html
+
+
+.. _PyCSW: http://pycsw.org
+.. _GeoNetwork: http://www.geonetwork-opensource.org
+.. _ESRI Geoportal: http://www.esri.com/software/arcgis/geoportal
+.. _CKAN: http://ckan.org
+.. _OKFN: https://okfn.org/
+.. _THREDDS Data Server (TDS): http://www.unidata.ucar.edu/software/thredds/current/tds/
+
+
 Best Practices for Catalogs
 ===========================
+* Advertise your CSW endpoint so that people can readily access it through an 'API' or 'Developer' tab.
+* ESRI Geoportal and CKAN both provide comprehensive open source catalog software options that have been adopeted by a wide user community and are recommended.
+* Publish only your original metadata and data.
