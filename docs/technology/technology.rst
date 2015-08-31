@@ -5,14 +5,14 @@ The following sections describe the technology and architecture behind the West 
 
 Architecture
 ============
-The West Coast Ocean Data Portal is comprised of a number of technologies and software components.  The following diagram shows an generalized view of the software architecture.
+The West Coast Ocean Data Portal is comprised of a number of technologies and software components.  The following diagram shows a generalized view of the software architecture.
 
 .. image:: images/WCODP_expanded_system_diagram.png
 	:scale: 100 %
 	:align: center
 
 
-The WCODP relies upon the following technologies:
+**The WCODP relies upon the following technologies**
 
 `Nginx`_
 	HTTP server and reverse proxy
