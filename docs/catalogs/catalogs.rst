@@ -77,7 +77,7 @@ PyCSW
 	* `Inside Idaho <http://www.insideidaho.org/>`_
 	* `OpenDataPhilly <https://www.opendataphilly.org/>`_
 
-The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including CKAN, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
+The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including `CKAN`_, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
 
 
 GeoNetwork
@@ -139,5 +139,5 @@ THREDDS Data Server (TDS)
 Best Practices for Catalogs
 ===========================
 * Advertise your CSW endpoint so that people can readily access it through an 'API' or 'Developer' tab.
-* ESRI Geoportal and CKAN both provide comprehensive open source catalog software options that have been adopeted by a wide user community and are recommended.
+* ESRI Geoportal and CKAN both provide comprehensive open source catalog software options that have been adopted by a wide user community and are recommended.
 * Publish only your original metadata and data.

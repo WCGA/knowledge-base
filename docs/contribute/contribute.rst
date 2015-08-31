@@ -5,7 +5,7 @@ Contribute
 Why Register Your Data?
 =======================
 
-Registering your metadata with the West Coast Ocean Data Portal (WCODP) is an excellent way to promote your data or web services to the ocean and coastal data community on the West Coast.   
+Registering your metadata with the `West Coast Ocean Data Portal`_ (WCODP) is an excellent way to promote your data or web services to the ocean and coastal data community on the West Coast.   
 
 Some benefits of data registration in the WCODP include:
 
@@ -46,6 +46,10 @@ The WCODP regularly harvests select records from a number of regional, state, an
 State and Regional Portals, Registries, and Clearinghouses
 ----------------------------------------------------------
 
+**Regional or National Portals**
+ * Data.gov: 									http://www.data.gov/ocean/
+ * Marine Cadastre								http://marinecadastre.gov/data/
+
 **State Registries**
  * California Geoportal: 						http://portal.gis.ca.gov/geoportal/catalog/main/home.page
  * Oregon Spatial Data Library:                 http://spatialdata.oregonexplorer.info/geoportal/catalog/main/home.page
@@ -62,8 +66,28 @@ State and Regional Portals, Registries, and Clearinghouses
  * California SeaFloor Mapping Program:         http://seafloor.otterlabs.org/csmp/csmp.html
 
 
-
 How to Register Data With the West Coast Ocean Data Portal
 ==========================================================
-If you have data, metadata, and web services that you would like to make accessible via the West Coast Ocean Data Portal:
+If you have geospatial data, metadata, and web services that you would like to make accessible via the West Coast Ocean Data Portal, follow the steps below:
+
+1. Identify the geospatial data and/or `web mapping service(s)`_ that you would like to share with the ocean GIS community on the West Coast. 
+	* Use the `Criteria for Inclusion`_ to help you determine if your data or services are a good fit
+2. Create standards-compliant `metadata`_ for your geospatial data and/or web mapping service(s).  
+	* Include the URLS for the data download location and/or web mapping service, or other ways for users to access the information.
+	* `Validate`_ your metadata
+3. Publish your metadata via a `Web Accessible Folder (WAF)`_ or a `Catalog Service (CSW)`_ or through a regional portal or clearinghouse.
+4. Complete the form on the `Contributor page`_ of the WCODP, or contact the WCODP Adminstrator (portal@westcoastoceans.org) about your data set(s). 
+
+That's it!  The WCODP Adminstrator will be in touch to let you know that the harvest of your metadata was successful, or to work with you to make modifications if there were any problems.  
+
+.. _West Coast Ocean Data Portal:  http://portal.westcoastoceans.org/
+.. _web mapping service(s): /webservices/webservices.html
+.. _metadata: /metadata/metadata.html
+.. _Validate: /metadata/metadata.html#validating-your-metadata
+.. _Web Accessible Folder (WAF): /catalogs/catalogs.html#web-accessible-folder
+.. _Catalog Service (CSW): /catalogs/catalogs.html#catalog-service-for-the-web
+.. _Contributor page: http://portal.westcoastoceans.org/contributors
+
+
+
 
