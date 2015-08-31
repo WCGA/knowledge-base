@@ -159,7 +159,7 @@ Metadata Creation Tools Webinar Videos (July 2015):
 
 For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options), can be used to create, edit, and export FGDC-compliant metadata.  However, the other ArcCatalog styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003), have not been extensively tested with the WCODP, but have so far had mixed results.  
 
-If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an ISO 19115 metadata template that contributors can use. (need link).  
+If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an ISO 19115 metadata template that contributors can use. (TODD -- need link).  
 
 .. seealso::
 	* https://www.fgdc.gov/metadata/geospatial-metadata-tools
