@@ -70,15 +70,20 @@ CSW Requests include:
 Catalog Server Software
 =======================
 
-PyCSW
+pycsw
 -----
-.. sidebar:: PyCSW Sites
+.. sidebar:: pycsw Sites
 	
+	* `Pacific Islands Ocean Obeserving System (PacIOOS) <https://github.com/geopython/pycsw/wiki/Live-Deployments>`_
+	* `Land Information New Zealand <https://data.linz.govt.nz/>`_
 	* `Inside Idaho <http://www.insideidaho.org/>`_
 	* `OpenDataPhilly <https://www.opendataphilly.org/>`_
 
-The main focus of `PyCSW`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources doscoverable.  A number of data catalog projects, including `CKAN`_, have begun using PyCSW to provide their CSW harvesting and serving capabilities.
+The main focus of `pycsw`_ is providing a very lightweight Python CSW server solution.  Another goal is to allow you to quickly publish your metadata repository and make your resources discoverable.  A number of data catalog projects, including `CKAN`_, are using pycsw to provide their CSW harvesting and serving capabilities.
 
+.. seealso::
+
+	`pycsw Live Deployments <https://github.com/geopython/pycsw/wiki/Live-Deployments>`_
 
 GeoNetwork
 ----------
@@ -109,7 +114,7 @@ CKAN
 
 	* `Data.gov <http://www.data.gov/>`_
 
-`CKAN`_ was created by the Open Knowledge Foundation (`OKFN`_) in the United Kingdom and is the data catalog platform behind data.gov.uk.  CKAN is now beginning to catch on in the United States.  It was chosen to become the data catalog behind data.gov and geo.data.gov.  CKAN now employs PyCSW as its CSW engine.
+`CKAN`_ was created by the Open Knowledge Foundation (`OKFN`_) in the United Kingdom and is the data catalog platform behind data.gov.uk.  CKAN is now beginning to catch on in the United States.  It was chosen to become the data catalog behind data.gov and geo.data.gov.  CKAN now employs pycsw as its CSW engine.
 
 
 THREDDS Data Server (TDS)

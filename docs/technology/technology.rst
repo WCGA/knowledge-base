@@ -12,7 +12,7 @@ The West Coast Ocean Data Portal is comprised of a number of technologies and so
 	:align: center
 
 
-**The WCODP relies upon the following technologies**
+**The WCODP relies upon the following technologies:**
 
 `Nginx`_
 	HTTP server and reverse proxy

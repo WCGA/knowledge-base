@@ -77,7 +77,6 @@ If you have geospatial data, metadata, and web services that you would like to m
 	* `Validate`_ your metadata
 3. Publish your metadata via a `Web Accessible Folder (WAF)`_ or a `Catalog Service (CSW)`_ or through a regional portal or clearinghouse.
 	
-	
 4. Complete the form on the `Contributor page`_ of the WCODP, or contact the WCODP Adminstrator (portal@westcoastoceans.org) about your data set(s). 
 
 That's it!  The WCODP Adminstrator will be in touch to let you know that the harvest of your metadata was successful, or to work with you to make modifications if there were any problems.  
