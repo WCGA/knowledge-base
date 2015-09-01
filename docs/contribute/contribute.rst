@@ -89,6 +89,13 @@ That's it!  The WCODP Adminstrator will be in touch to let you know that the har
 .. _Catalog Service (CSW): /catalogs/catalogs.html#catalog-service-for-the-web
 .. _Contributor page: http://portal.westcoastoceans.org/contributors
 
+.. toctree::
+   :maxdepth: 1
+
+   WCGA Data Sharing Policy <data_sharing_policy>
+
+
+
 
 
 

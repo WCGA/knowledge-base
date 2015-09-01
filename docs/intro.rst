@@ -6,7 +6,7 @@ What is the West Coast Ocean Data Portal?
 =========================================
 The `West Coast Ocean Data Portal <http://portal.westcoastoceans.org/>`_ is a tool that facilitates geospatial data **discovery** and data **sharing** for people and organizations who work on regional ocean and coastal management, policy, and planning on the West Coast of the United States. You can read more about the West Coast Ocean Data Portal here: http://portal.westcoastoceans.org/about/.
 
-The West Coast Ocean Data Portal (WCODP) is a project of the `West Coast Governors Alliance <http://www.westcoastoceans.org/>`_ (WCGA). The WCGA and the WCODP promote communication and knowledge sharing between West Coast ocean data managers, partners, and users, known as the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_.  
+The West Coast Ocean Data Portal (WCODP) is a project of the `West Coast Governors Alliance on Ocean Health <http://www.westcoastoceans.org/>`_ (WCGA). The WCGA and the WCODP promote communication and knowledge sharing between West Coast ocean data managers, partners, and users, known as the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_.  
 
 The West Coast Ocean Data Portal is a unique and valuable resource on the West Coast because it focuses on regional data sets for cross-boundary, multi-discipline, and multi-agency issues such as marine debris, sea-level rise adaptation, oil spill response, and marine spatial planning.  
 
