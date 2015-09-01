@@ -55,8 +55,9 @@ GFC
 Registration / Harvest Process
 ==============================
 
+Additional Resources
+====================
 Github Repository
-=================
+Management Guide -- TODD, suggest protecting this (at Google end) because there are passwords in the doc.
+Anything Else?
 
-Management Guide
-================

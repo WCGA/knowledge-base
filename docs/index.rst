@@ -13,4 +13,4 @@ Table of Contents
   Metadata <metadata/metadata>
   Web Services <webservices/webservices>
   Catalogs <catalogs/catalogs>
-  Technology <technology/technology>
+  Our Technology <technology/technology>

@@ -30,3 +30,14 @@ This Knowledge Base is *not* a user guide for end users of the WCODP.
 .. _web mapping services: /webservices/webservices.html
 .. _web catalog services: /catalogs/catalogs.html
 .. _technology: /technology/technology.html
+
+Questions?
+==========
+If you don't find the information you're looking for in this knowledge base, or have additional questions, feel free to contact us:
+
+* West Coast Ocean Data Portal Administrator, portal@westcoastoceans.org
+* Todd Hallenbeck, Program Coordinator, todd.r.hallenbeck@westcoastoceans.org
+* Andy Lanier, ACT Co-Chair, andy.lanier@state.or.us
+* Steve Steinberg, ACT Co-Chair, steves@sccwrp.org
+
+We also encourage you to join the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_ to find out about training and networking opportunities, as well as to connect with other members of the network to share resources, questions, and ideas.
