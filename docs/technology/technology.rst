@@ -55,9 +55,43 @@ GFC
 Registration / Harvest Process
 ==============================
 
+Registration and metadata harvest into the WCODP is done through the Adminstrative interface of ESRI Geoportal Server.  This is generally done by the WCODP Administrator, but can be done by others with administrative access.
+
+If the Web Accessible Folder (WAF) or Catalog is not yet registered in the WCODP, it must be added via the Register Resource page.  
+	1. Log into ESRI Geoportal (http://portal.westcoastoceans.org/geoportal) as an administrator
+	2. On the Administration page, click Add, and select Register resource on the network
+	3. Add the Host URL for the WAF or Catalog (CSW).  It's good practice to use the Test button to confirm that the URL works
+	4. Add a Title -- This is what will show up in the Sources list of the WCODP, so make sure it is clear and user-friendly.
+	5. If you are harvesting from a catalog, you need to select the Profile.  There are two custom profiles for WCODP: TODD -- may need more details here about which one to select and when...
+		* WCGA RDF ESRI Geoportal (GPT)
+		* WCGA RDF GeoNetwork APISO
+	6. You can leave all the other information as-is.  Create and Close.
+
+After you register the resource for the first time, you must approve and synchronize the resource.
+	1. Return to the Manage page of the Administration interface.
+	2. Select the checkbox next to the resource you just registered
+	3. Select "Set as Approved" in the pull-down menu, and click Execute Action
+	4. Click on the blue arrow (Synchronize content) icon next to the resource of interest.  This may take a minute or two and you may need to manually refresh the page
+
+Review the synchronization results.
+	1. Click on the clock icon (History) next to the resource of interest.  
+		* This will show the date of the most recent synchronization, the number of records obtained, the number of records validated, and the number of records published.
+	2. If the number of records validated or published does not match the number of records obtained, 
+		1. Click on the empty box icon (View report)
+		2. Click the plus sign next to Details to see the validation results which shows the metadata records harvested and the validation errors.
+
+If the harvested resource is a WAF, all valid metadata records in that folder will be harvested.   
+
+If the harvested resource is a CSW, it is possible to selectively harvest relevant records through the use of profiles in Geoportal.  The unique UUID of each metadata record of interest must be added to a specific XSLT file on the server.   The XSLT file corresponding to the profile that you selected when registering the resource is the one to update.  (TODD -- is this right?).
+
+When there are updates or additions to metadata in a WAF or Catalog that is already registered in the WCODP, simply synchronize the resource.  For a CSW, you must also add the relevant UUIDs to the profile file prior to synchronization.
+
+After registration and harvest, the portal admin assigns additional attributes to the records using the WCGA-specific controlled vocabulary/taxonomy.  (TODD - what to link here?).  This assignment is accomplished either by assigning records to Collections through the Geoportal admin interface, or directly via adding records to the Postgres database.  These attributes are used in the Categories tab in the WCODP.
+
+
 Additional Resources
 ====================
-Github Repository
-Management Guide -- TODD, suggest protecting this (at Google end) because there are passwords in the doc.
-Anything Else?
+* `Source Code for the West Coast Ocean Data Portal <https://github.com/Ecotrust/wc-data-registry>`_
+* Management Guide -- TODD, suggest protecting this (at Google end) because there are passwords in the doc.
+* Anything Else?
 
