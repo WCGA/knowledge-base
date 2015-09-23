@@ -8,7 +8,7 @@ The `West Coast Ocean Data Portal <http://portal.westcoastoceans.org/>`_ is a to
 
 The West Coast Ocean Data Portal (WCODP) is a project of the `West Coast Governors Alliance on Ocean Health <http://www.westcoastoceans.org/>`_ (WCGA). The WCGA and the WCODP promote communication and knowledge sharing between West Coast ocean data managers, partners, and users, known as the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_.  
 
-The West Coast Ocean Data Portal is a unique and valuable resource on the West Coast because it focuses on regional data sets for cross-boundary, multi-discipline, and multi-agency issues such as marine debris, sea-level rise adaptation, oil spill response, and marine spatial planning.  
+The West Coast Ocean Data Portal is a unique and valuable resource on the West Coast because it focuses on regional data sets for cross-boundary, multi-discipline, and multi-agency issues such as marine debris, sea-level rise adaptation, ocean acidification, and marine spatial planning.  
 
 The WCODP does not store a copy of data sets or metadata.  Instead, it displays key descriptive information about the data and points users to the original source using the metadata as the "road map."
 
