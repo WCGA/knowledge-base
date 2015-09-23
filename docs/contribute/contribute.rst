@@ -70,7 +70,7 @@ How to Register Data With the West Coast Ocean Data Portal
 ==========================================================
 If you have geospatial data, metadata, and web services that you would like to make accessible via the West Coast Ocean Data Portal, follow the steps below:
 
-1. Identify the geospatial data and/or `web mapping service(s)`_ that you would like to share with the ocean GIS community on the West Coast. 
+1. Identify the geospatial data and/or `web mapping service(s)`_ that you would like to share. 
 	* Use the `Criteria for Inclusion`_ to help you determine if your data or services are a good fit
 2. Create standards-compliant `metadata`_ for your geospatial data and/or web mapping service(s).  
 	* Include the URLS for the data download location and/or web mapping service, or other ways for users to access the information.
