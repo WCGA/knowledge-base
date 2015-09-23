@@ -23,7 +23,7 @@ Data Themes and Geographic Scope
 The focus of the WCODP is regional data that depict coastal and ocean characteristics (biological, physical) as well as  human uses, management, and potential impacts.  Therefore, the following data types are the highest priority for registration:
 
 * Data that are state or regional in scale
-* Data that meet one of more priority needs of the West Coast Governors Alliance.  **[TODD:  what is the best link here?]**
+* Data that meet one of more priority needs of the `West Coast Governors Alliance <http://www.westcoastoceans.org>`_. 
 
 Technical Prerequisites
 -----------------------
