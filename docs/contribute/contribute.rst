@@ -23,7 +23,7 @@ Data Themes and Geographic Scope
 The focus of the WCODP is regional data that depict coastal and ocean characteristics (biological, physical) as well as  human uses, management, and potential impacts.  Therefore, the following data types are the highest priority for registration:
 
 * Data that are state or regional in scale
-* Data that meet one of more priority needs of the West Coast Governors Alliance.  **[TODD:  what is the best link here?]**
+* Data that meet one of more `priority needs <http://network.westcoastoceans.org/wp-content/uploads/2015/09/Data-Priorities-June-2014.pdf>`_ of the West Coast Governors Alliance. 
 
 Technical Prerequisites
 -----------------------
@@ -33,7 +33,7 @@ Because metadata provides the details needed to display the record in the WCODP,
 Specifically, 
 
 * The data must be geospatial, ideally in a GIS format, but may be in a tabular format that includes coordinates. 
-* The data must have an on-line metadata record, preferably in Federal Geogaphic Data Committee (FGDC) or ISO format.
+* The data must have an on-line metadata record, preferably in Federal Geographic Data Committee (FGDC) or ISO format.
 * The metadata should link to web services and/or a URL to download the data.
 * It is highly recommended that web services be OGC-compliant or exist as an ArcGIS version 10.x REST service.
 
@@ -41,12 +41,12 @@ Specifically,
 Relationship to Other Portals
 =============================
 
-The WCODP regularly harvests select records from a number of regional, state, and federal data portals and clearinghouses.  We encourage you to register your data with one of the portals listed below for ease of access by the WCODP, as well as to reach a broader audience.  You can view the current data contributors here: http://portal.westcoastoceans.org/contributors/ or under the Sources tab on the Discover page: http://portal.westcoastoceans.org/discover/
+The WCODP regularly harvests select records from a number of regional, state, and federal data portals and clearinghouses.  If appropriate, we encourage you to register your data with one of the portals listed below for ease of access by the WCODP, as well as to reach a broader audience.  You can view the current data contributors here: http://portal.westcoastoceans.org/contributors/ or under the Sources tab on the Discover page: http://portal.westcoastoceans.org/discover/
   
 State and Regional Portals, Registries, and Clearinghouses
 ----------------------------------------------------------
 
-**Regional or National Portals**
+**National Portals**
  * Data.gov: 									http://www.data.gov/ocean/
  * Marine Cadastre								http://marinecadastre.gov/data/
 
@@ -77,9 +77,9 @@ If you have geospatial data, metadata, and web services that you would like to m
 	* `Validate`_ your metadata
 3. Publish your metadata via a `Web Accessible Folder (WAF)`_ or a `Catalog Service (CSW)`_ or through a regional portal or clearinghouse.
 	
-4. Complete the form on the `Contributor page`_ of the WCODP, or contact the WCODP Adminstrator (portal@westcoastoceans.org) about your data set(s). 
+4. Complete the form on the `Contributor page`_ of the WCODP, or contact the WCODP Administrator (portal@westcoastoceans.org) about your data set(s). 
 
-That's it!  The WCODP Adminstrator will be in touch to let you know that the harvest of your metadata was successful, or to work with you to make modifications if there were any problems.  
+That's it!  The WCODP Administrator will be in touch to let you know that the harvest of your metadata was successful, or to work with you to make modifications if there were any problems.  
 
 .. _West Coast Ocean Data Portal:  http://portal.westcoastoceans.org/
 .. _web mapping service(s): /webservices/webservices.html

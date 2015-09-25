@@ -62,9 +62,10 @@ If the Web Accessible Folder (WAF) or Catalog is not yet registered in the WCODP
 	2. On the Administration page, click Add, and select Register resource on the network
 	3. Add the Host URL for the WAF or Catalog (CSW).  It's good practice to use the Test button to confirm that the URL works
 	4. Add a Title -- This is what will show up in the Sources list of the WCODP, so make sure it is clear and user-friendly.
-	5. If you are harvesting from a catalog, you need to select the Profile.  There are two custom profiles for WCODP: TODD -- may need more details here about which one to select and when...
-		* WCGA RDF ESRI Geoportal (GPT)
-		* WCGA RDF GeoNetwork APISO
+	5. If you are harvesting from a catalog, you need to select the Profile.  There are three custom profiles for WCODP depending on the type of CSW being harvested:
+		* ESRI Geoportal (GPT)
+		* GeoNetwork APISO
+		* PyCSW Custom
 	6. You can leave all the other information as-is.  Create and Close.
 
 After you register the resource for the first time, you must approve and synchronize the resource.
@@ -82,16 +83,16 @@ Review the synchronization results.
 
 If the harvested resource is a WAF, all valid metadata records in that folder will be harvested.   
 
-If the harvested resource is a CSW, it is possible to selectively harvest relevant records through the use of profiles in Geoportal.  The unique UUID of each metadata record of interest must be added to a specific XSLT file on the server.   The XSLT file corresponding to the profile that you selected when registering the resource is the one to update.  (TODD -- is this right?).
+If the harvested resource is a CSW, it is possible to selectively harvest relevant records through the use of profiles in Geoportal.  The unique UUID of each metadata record of interest must be added to a specific XSLT file on the server.   The XSLT file corresponding to the profile that you selected when registering the resource is the one to update.
 
 When there are updates or additions to metadata in a WAF or Catalog that is already registered in the WCODP, simply synchronize the resource.  For a CSW, you must also add the relevant UUIDs to the profile file prior to synchronization.
 
-After registration and harvest, the portal admin assigns additional attributes to the records using the WCGA-specific controlled vocabulary/taxonomy.  (TODD - what to link here?).  This assignment is accomplished either by assigning records to Collections through the Geoportal admin interface, or directly via adding records to the Postgres database.  These attributes are used in the Categories tab in the WCODP.
+After registration and harvest, the portal admin assigns additional attributes to the records using the `WCGA-specific controlled vocabulary/taxonomy <https://docs.google.com/spreadsheets/d/1u302tn8UEtKlW1o2TpVwuG0xljpqJXUV29eYrx4LQmg/edit?usp=sharing>`_.  This assignment is accomplished either by assigning records to Collections through the Geoportal admin interface, or directly via adding records to the Postgres database.  These attributes are used in the Categories tab in the WCODP.
 
 
 Additional Resources
 ====================
 * `Source Code for the West Coast Ocean Data Portal <https://github.com/Ecotrust/wc-data-registry>`_
-* Management Guide -- TODD, suggest protecting this (at Google end) because there are passwords in the doc.
-* Anything Else?
+* Management Guide 
+
 

@@ -117,7 +117,7 @@ EML
 
 Ecological Markup Language
 
-EML is a specification intended to support the description of any type of ecological information, including raw data, published research papers, rights information, and research protocols. At the highest level, EML models four primary entities: datasets, literature, software, and protocols.
+EML is a specification intended to support the description of any type of ecological information, including raw data, published research papers, rights information, and research protocols. At the highest level, EML models four primary entities: datasets, literature, software, and protocols. The WCODP technical community is working on developing a process for harvesting this format of metadata. 
 
 .. seealso::
 	* For more information about EML, see http://knb.ecoinformatics.org/software/eml/.
@@ -132,6 +132,7 @@ Following are some geospatial metadata tools that have been used successfully to
 ====================================  =======  =====================================  =====================  =========
 Tool                                  Type     Standards                              Requires               Optional
 ====================================  =======  =====================================  =====================  =========
+`Esri ArcCatalog`_                    Desktop  FGDC CSDGM, ISO 19115                  ArcGIS License         ArcGIS 10
 `EPA Metadata Editor (EME) v.3.2`_    Desktop  FGDC CSDGM                             Windows OS             ArcGIS 10
 `EPA Metadata Editor (EME) v.4.0`_    Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
 `USGS Metadata Wizard`_               Desktop  FGDC CSDGM                             ArcGIS 10
@@ -140,6 +141,7 @@ Tool                                  Type     Standards                        
 `USGS Online Metadata Editor (OME)`_  Web      FGDC CSDGM                             web browser, login
 ====================================  =======  =====================================  =====================  =========
 
+.. _Esri ArcCatalog: http://goo.gl/TISWJ6
 .. _EPA Metadata Editor (EME) v.3.2: https://edg.epa.gov/EME/download.html
 .. _EPA Metadata Editor (EME) v.4.0: https://edg.epa.gov/EME/download.html
 .. _USGS Metadata Wizard: http://www.sciencebase.gov/metadatawizard 
@@ -159,7 +161,7 @@ Metadata Creation Tools Webinar Videos (July 2015):
 
 For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options), can be used to create, edit, and export FGDC-compliant metadata.  However, the other ArcCatalog styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003), have not been extensively tested with the WCODP, but have so far had mixed results.  
 
-If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an ISO 19115 metadata template that contributors can use. (TODD -- need link).  
+If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an `ISO 19115 metadata template <http://network.westcoastoceans.org/wp-content/uploads/2015/09/template_xml_iso19115_new.zip>`_ that contributors can use.  
 
 .. seealso::
 	* https://www.fgdc.gov/metadata/geospatial-metadata-tools
@@ -181,7 +183,29 @@ In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant, wil
 How Is the Metadata Displayed?
 ==============================
 
-This part will explicitly show the translation between the metadata content or Xpaths and where it shows up on the WCODP.  
+The table below shows the translation between the metadata content or Xpaths and where they show up in the WCODP.
+
+=============== ======== ==================== ==================== ======================= ==================== ==========================                
+Metadata Format Date     Creator              Publisher            Contact                 Constraints          URL                 
+=============== ======== ==================== ==================== ======================= ==================== ==========================                
+`Dublin Core`_  DC:Date  DC:Creator           DC:Publisher         DC:Creator	           DC:Rights            NA		 
+`FGDC CSDGM`_   pubdate  origin               ptcontac>            ptcontac>               useconst             onlink
+                                              cntinfo>             cntper &                
+                                              cntorgp>             ptcontac>
+                                              cntorg               cntemail																  
+`ISO 19115`_    date>    pointOfContact>      contact>             address>
+                CI_Date> organisationName     CI_ResponsibleParty> electronicMailAddress & resourceConstraints> transferOptions>  
+                date>    CI_ResponsibleParty> organisationName>    CI_Address>             MD_LegalConstraints> MD_DigitalTransferOptions>
+                Date                                               pointOfContact>         otherConstraints     onLine>
+                                                                   CI_ResponsibleParty>                         CI_OnlineResource>
+                                                                   individualName                               linkage>
+                                                                                                                url
+=============== ======== ==================== ==================== ======================= ==================== ==========================
+
+.. _Dublin Core: http://dublincore.org/
+.. _FGDC CSDGM:  http://www.fgdc.gov/metadata/geospatial-metadata-standards
+.. _ISO 19115: http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020																												  
+
 
 Best Practices for Metadata
 ===========================
