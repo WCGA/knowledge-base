@@ -132,7 +132,7 @@ Following are some geospatial metadata tools that have been used successfully to
 ====================================  =======  =====================================  =====================  =========
 Tool                                  Type     Standards                              Requires               Optional
 ====================================  =======  =====================================  =====================  =========
-`Esri ArcCatalog`_                    Desktop  FGDC CSDGM, ISO 19115                  ArcGIS License         ArcGIS 10
+`Esri ArcCatalog`_                    Desktop  FGDC CSDGM                             ArcGIS 10
 `EPA Metadata Editor (EME) v.3.2`_    Desktop  FGDC CSDGM                             Windows OS             ArcGIS 10
 `EPA Metadata Editor (EME) v.4.0`_    Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
 `USGS Metadata Wizard`_               Desktop  FGDC CSDGM                             ArcGIS 10
@@ -141,7 +141,7 @@ Tool                                  Type     Standards                        
 `USGS Online Metadata Editor (OME)`_  Web      FGDC CSDGM                             web browser, login
 ====================================  =======  =====================================  =====================  =========
 
-.. _Esri ArcCatalog: http://goo.gl/TISWJ6
+.. _Esri ArcCatalog: http://resources.arcgis.com/EN/HELP/MAIN/10.2/index.html#/A_quick_tour_of_creating_and_editing_metadata/003t00000007000000/
 .. _EPA Metadata Editor (EME) v.3.2: https://edg.epa.gov/EME/download.html
 .. _EPA Metadata Editor (EME) v.4.0: https://edg.epa.gov/EME/download.html
 .. _USGS Metadata Wizard: http://www.sciencebase.gov/metadatawizard 
