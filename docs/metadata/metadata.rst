@@ -183,28 +183,46 @@ In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant, wil
 How Is the Metadata Displayed?
 ==============================
 
-The table below shows the translation between the metadata content or Xpaths and where they show up in the WCODP.
+The table below shows the translation between the metadata tags or Xpaths and where the content is displayed in the WCODP.
 
-=============== ======== ==================== ==================== ======================= ==================== ==========================                
-Metadata Format Date     Creator              Publisher            Contact                 Constraints          URL                 
-=============== ======== ==================== ==================== ======================= ==================== ==========================                
-`Dublin Core`_  DC:Date  DC:Creator           DC:Publisher         DC:Creator	           DC:Rights            NA		 
-`FGDC CSDGM`_   pubdate  origin               ptcontac>            ptcontac>               useconst             onlink
-                                              cntinfo>             cntper &                
-                                              cntorgp>             ptcontac>
-                                              cntorg               cntemail																  
-`ISO 19115`_    date>    pointOfContact>      contact>             address>
-                CI_Date> organisationName     CI_ResponsibleParty> electronicMailAddress & resourceConstraints> transferOptions>  
-                date>    CI_ResponsibleParty> organisationName>    CI_Address>             MD_LegalConstraints> MD_DigitalTransferOptions>
-                Date                                               pointOfContact>         otherConstraints     onLine>
-                                                                   CI_ResponsibleParty>                         CI_OnlineResource>
-                                                                   individualName                               linkage>
-                                                                                                                url
-=============== ======== ==================== ==================== ======================= ==================== ==========================
+=============== ====================== ====================== ==================== ======================= ====================== ====================== ==========================                
+Metadata Format Date Published         Creator                Publisher            Contact Name            Contact Email          Constraints            URL               
+=============== ====================== ====================== ==================== ======================= ====================== ====================== ==========================                
+`Dublin Core`_  DC:Date                DC:Creator             DC:Publisher         DC:Creator	                                  DC:Rights              NA		 
+`FGDC CSDGM`_   idinfo>                idinfo>                distinfo>            idinfo>                 idinfo>                idinfo>                idinfo>
+                citation>              citation>              distrib>             ptcontac>               ptcontac>              useconst               citation>
+                citeinfo>              citeinfo>              cntinfo>             cntinfo>                cntinfo>                                      citeinfo>
+                pubdate                origin                 cntorgp>             cntorgp>                cntemail                                      onlink																  
+                                                              cntorg               cntper
+  
+`ISO 19115`_    identificationInfo>    identificationInfo>    contact>             identificationInfo>     contactInfo>           identificationInfo>
+                MD_DataIdentification> MD_DataIdentification> CI_ResponsibleParty> MD_DataIdentification>  CI_Contact>            MD_DataIdentification> transferOptions>  
+                citation>              pointOfContact>        organisationName>    pointOfContact>         address>               resourceConstraints>   MD_DigitalTransferOptions>
+                CI_Citation>           CI_ResponsibleParty>   CharacterString      CI_ResponsibleParty>    CI_Address>            MD_LegalConstraints>   onLine>
+                date>                  organisationName>                           individualName>         electronicMailAddress> otherConstraints>      CI_OnlineResource>
+                CI_Date>               CharacterString                             CharacterString         CharacterString        CharacterString        linkage>
+                date>                                                                                                                                    url
+                DateTime
+`ISO 19115-2`_  identificationInfo>    identificationInfo>    contact>             identificationInfo>     identificationInfo>    identificationInfo>
+                MD_DataIdentification> MD_DataIdentification> CI_ResponsibleParty> MD_DataIdentification>  MD_DataIdentification> MD_DataIdentification> transferOptions>  
+                citation>              gcitation>             organisationName>    citation>               citation>              resourceConstraints>   MD_DigitalTransferOptions>
+                CI_Citation>           CI_Citation>           CharacterString      CI_Citation>            CI_Citation>           MD_LegalConstraints>   onLine>
+                date>                  citedResponsibleParty>                      citedResponsibleParty>  citedResponsibleParty> useLimitation>         CI_OnlineResource>
+                CI_Date>               CI_ResponsibleParty>                        CI_ResponsibleParty>    CI_ResponsibleParty>   CharacterString        linkage>
+                gdate>                 organisationName>                           individualName          contactInfo>                                  url
+                Date                   CharacterString                                                     CI_Contact>
+                                                                                                           address>
+                                                                                                           CI_Address>
+                                                                                                           electronicMailAddress>
+                                                                                                           CharacterString
+=============== ====================== ====================== ==================== ======================= ====================== ====================== ==========================
+
+For further detail, the JavaScript code used to extract the metadata content can be viewed here: https://github.com/Ecotrust/wc-data-registry/blob/master/site_raw/_includes/js/services/Metadata.js 
 
 .. _Dublin Core: http://dublincore.org/
 .. _FGDC CSDGM:  http://www.fgdc.gov/metadata/geospatial-metadata-standards
-.. _ISO 19115: http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020																												  
+.. _ISO 19115: http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020	
+.. _ISO 19115-2: http://www.iso.org/iso/catalogue_detail.htm?csnumber=39229																											  
 
 
 Best Practices for Metadata
