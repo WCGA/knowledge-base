@@ -62,17 +62,10 @@ If the WAF or Catalog is not yet registered in the WCODP, it must be added via t
 	2. On the Administration page, click Add, and select Register resource on the network
 	3. Add the Host URL for the WAF or Catalog (CSW).  It's good practice to use the Test button to confirm that the URL works
 	4. Add a Title -- This is what will show up in the Sources list of the WCODP, so make sure it is clear and user-friendly.
-<<<<<<< HEAD
-	5. If you are harvesting from a catalog, you need to select the Profile.  There are three custom profiles for WCODP depending on the type of CSW being harvested:
-		* ESRI Geoportal (GPT)
-		* GeoNetwork APISO
-		* PyCSW Custom
-=======
-	5. If harvesting from a Catalog, select a Profile based on publisher's CSW. WCODP has three custom profiles:   
-		* WCGA RDF ESRI Geoportal (GPT)
-		* WCGA RDF GeoNetwork APISO
-		* pycsw - harvest by dc:identifiers
->>>>>>> 91a9e347ebbc00cfac80ff838c23f85277bdd942
+	5. If harvesting from a Catalog, select a Profile based on publisher's CSW. WCODP has three custom profiles: 
+		* ESRI Geoportal (WCGA RDF ESRI Geoportal (GPT))
+		* GeoNetwork APISO (WCGA RDF GeoNetwork APISO)
+		* pycsw Custom (pycsw - harvest by dc:identifiers)
 	6. You can leave all the other information as-is.  Create and Close.
 
 After you register the resource for the first time, you must approve and synchronize the resource.
