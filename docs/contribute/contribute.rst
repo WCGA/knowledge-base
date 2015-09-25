@@ -23,7 +23,11 @@ Data Themes and Geographic Scope
 The focus of the WCODP is regional data that depict coastal and ocean characteristics (biological, physical) as well as  human uses, management, and potential impacts.  Therefore, the following data types are the highest priority for registration:
 
 * Data that are state or regional in scale
+<<<<<<< HEAD
 * Data that meet one of more `priority needs <http://network.westcoastoceans.org/wp-content/uploads/2015/09/Data-Priorities-June-2014.pdf>`_ of the West Coast Governors Alliance. 
+=======
+* Data that meet one of more priority needs of the `West Coast Governors Alliance <http://www.westcoastoceans.org>`_. 
+>>>>>>> 91a9e347ebbc00cfac80ff838c23f85277bdd942
 
 Technical Prerequisites
 -----------------------
@@ -70,7 +74,7 @@ How to Register Data With the West Coast Ocean Data Portal
 ==========================================================
 If you have geospatial data, metadata, and web services that you would like to make accessible via the West Coast Ocean Data Portal, follow the steps below:
 
-1. Identify the geospatial data and/or `web mapping service(s)`_ that you would like to share with the ocean GIS community on the West Coast. 
+1. Identify the geospatial data and/or `web mapping service(s)`_ that you would like to share. 
 	* Use the `Criteria for Inclusion`_ to help you determine if your data or services are a good fit
 2. Create standards-compliant `metadata`_ for your geospatial data and/or web mapping service(s).  
 	* Include the URLS for the data download location and/or web mapping service, or other ways for users to access the information.
