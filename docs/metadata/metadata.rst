@@ -147,7 +147,7 @@ Tool                                  Type     Standards                        
 .. _USGS Metadata Wizard: http://www.sciencebase.gov/metadatawizard 
 .. _MERMAID: http://www.ncddc.noaa.gov/metadata-standards/mermaid/
 .. _ATRAC: https://www.ncdc.noaa.gov/atrac/index.html
-.. _USGS Online Metadata Editor (OME): http://mercury.ornl.gov/OME/
+.. _USGS Online Metadata Editor (OME): https://www1.usgs.gov/csas/ome/
 
 Allison Bailey presented a Technical Training Webinar to West Coast Ocean Data Network members highlighting some of these metadata tools, tool capabilities, and tips and tricks for creating metadata that can be easily consumed by the WCODP.
 
