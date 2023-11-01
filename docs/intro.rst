@@ -36,8 +36,8 @@ Questions?
 If you don't find the information you're looking for in this knowledge base, or have additional questions, feel free to contact us:
 
 * West Coast Ocean Data Portal Administrator, portal@westcoastoceans.org
-* Todd Hallenbeck, Program Coordinator, todd.r.hallenbeck@westcoastoceans.org
-* Andy Lanier, ACT Co-Chair, andy.lanier@state.or.us
-* Steve Steinberg, ACT Co-Chair, steves@sccwrp.org
+* Laura Bliss, Project Coordinator, laura.bliss@westcoastoceanalliance.org
+* Andy Lanier, Portal Co-Chair, andy.lanier@state.or.us
+* Steve Weisberg, Portal Co-Chair, stevew@sccwrp.org
 
 We also encourage you to join the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_ to find out about training and networking opportunities, as well as to connect with other members of the network to share resources, questions, and ideas.
