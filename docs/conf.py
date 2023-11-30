@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'West Coast Ocean Data Portal Knowledge Base'
-copyright = u'2015, West Coast Ocean Data Portal Team'
+copyright = u'2023, West Coast Ocean Data Portal Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
