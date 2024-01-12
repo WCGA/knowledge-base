@@ -64,7 +64,7 @@ Use of standard metadata formats is critical for interoperability and access by 
 
 .. seealso::
 	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
-	* https://www.ncei.noaa.gov/resources/metadata
+	* https://www.ncei.noaa.gov/sites/default/files/2020-04/Metadata.pdf
 
 The following standards can be used for data discovery via the West Coast Ocean Data Portal:
 
