@@ -4,11 +4,11 @@ Introduction
 
 What is the West Coast Ocean Data Portal?
 =========================================
-The `West Coast Ocean Data Portal <http://portal.westcoastoceans.org/>`_ (WCODP) is a project of the West Coast regional ocean partnership, the `West Coast Ocean Alliance <https://www.westcoastoceanalliance.org/>`_ (WCOA). The West Coast Ocean Data Portal is a tool that facilitates geospatial data **discovery** and data **sharing** for people and organizations who work on regional ocean and coastal management, policy, and planning on the West Coast of the United States. You can read more about the West Coast Ocean Data Portal here: http://portal.westcoastoceans.org/about/.
+The `West Coast Ocean Data Portal <http://portal.westcoastoceans.org/>`_ (WCODP) is a project of the West Coast regional ocean partnership, the `West Coast Ocean Alliance <https://www.westcoastoceanalliance.org/>`_ (WCOA). The West Coast Ocean Data Portal is a tool that facilitates geospatial data **discovery** and data **sharing** for people and organizations who work on regional ocean and coastal management, policy, and planning on the West Coast of the United States. You can read more about the West Coast Ocean Data Portal's goals and purpose here: http://portal.westcoastoceans.org/about/.
 
 The West Coast Ocean Data Portal is a unique and valuable resource on the West Coast because it focuses on regional data sets for cross-boundary, multi-discipline, and multi-agency issues such as marine debris, sea-level rise adaptation, ocean acidification, and marine spatial planning.  
 
-The WCODP does not store a copy of data sets or metadata.  Instead, it displays key descriptive information about the data and points users to the original source using the metadata as the "road map."
+The West Coast Ocean Data Portal does not store a copy of data sets or metadata.  Instead, it displays key descriptive information about the data and points users to the original source using the metadata as the "road map."
 
 How to Use this Knowledge Base
 =============================
