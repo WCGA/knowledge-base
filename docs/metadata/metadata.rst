@@ -77,6 +77,7 @@ ISO 19115 was developed by the geospatial community to address specific issues r
 
 .. seealso::
 	* For more information and to acquire the ISO 19115 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020.
+	* For a NCEI/NOAA workbook on 19115:2003(E) documentation, see https://bit.ly/191152003_documentation.
 
 ISO 19115-2
 -----------
@@ -87,6 +88,7 @@ ISO 19115-2:2009 extends ISO 19115:2003 by defining the schema required for desc
 
 .. seealso::
 	* For more information and to acquire the ISO 19115-2 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=39229.
+	* For a NCEI/NOAA workbook on ISO 19115-2 documentation, see https://www.ncei.noaa.gov/sites/default/files/2020-04/ISO%2019115-		2%20Workbook_Part%20II%20Extentions%20for%20imagery%20and%20Gridded%20Data.pdf.
 
 FGDC CSDGM
 ----------
@@ -122,7 +124,7 @@ EML is a specification intended to support the description of any type of ecolog
 How to Create Metadata
 ======================
 
-There are many different tools available to create geospatial metadata.  This knowledge base does not intend to cover all the tools available, but to provide information about some tools that can be used to create valid geospatial metadata that can be successfully harvested and displayed by the WCODP.
+There are many different tools available to create geospatial metadata.  This knowledge base does not intend to cover all the tools available but to provide information about some tools that can be used to create valid geospatial metadata that can be successfully harvested and displayed by the WCODP.
 
 Following are some geospatial metadata tools that have been used successfully to author standards-compliant metadata for harvest by the WCODP:
 
@@ -160,7 +162,6 @@ If the metadata are simple enough, some metadata creators prefer to use a text e
 
 .. seealso::
 	* https://www.fgdc.gov/metadata/geospatial-metadata-tools
-	* http://service.ncddc.noaa.gov/cdn/metadata-training-materials/Intro-to-ISO/5_ToolsforISOMetadata.pdf
 	* http://www.fgdc.gov/metadata/iso-metadata-editor-review
 	* http://www.usgs.gov/datamanagement/describe/metadata.php#advanced-users
 
@@ -168,12 +169,12 @@ If the metadata are simple enough, some metadata creators prefer to use a text e
 Validating Your Metadata
 ========================
 
-Validating metadata content and format is an essential step to assure that your metadata will be useful to others as well as accessible to various portals and metadata catalogs such as the WCODP
+Validating metadata content and format is an essential step to assure that your metadata will be useful to others as well as accessible to various portals and metadata catalogs such as the WCODP.
 
-In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant, will successfully validate and display in the WCODP.  Because the ISO standards are more comprehensive, more flexible, and more recently adopted, successful validation of an ISO 19115 or ISO 19115-2 record via an external tool, does not always guarantee successful validation and display in the WCODP.  In these cases, some testing and iterations with the WCODP coordinator may be needed.
+In general, any FGDC CSDGM metadata that can be validated as FGDC-compliant will successfully validate and display in the WCODP.  Because the ISO standards are more comprehensive, more flexible, and more recently adopted, successful validation of an ISO 19115 or ISO 19115-2 record via an external tool does not always guarantee successful validation and display in the WCODP.  In these cases, some testing and iterations with the WCODP coordinator may be needed.
 
 * USGS FGDC CSDGM Validator: http://geo-nsdi.er.usgs.gov/validation/
-* NOAA/NGDC ISO 19115-2 validator: http://www.ngdc.noaa.gov/docucomp/recordServices 
+* NCEI/NOAA validation infomation: https://www.ncei.noaa.gov/resources/metadata#validation
 
 How Is the Metadata Displayed?
 ==============================
@@ -226,7 +227,7 @@ Best Practices for Metadata
 Content 
 -------
 
-It is very important to provide good information within your metadata to assist people in understanding what the data are about, how it was created, how they can use it, who to contact with questions, and how to access the data.  It may even be helpful to you in the future as the data author to remember key details about creation the data set.  It has been said, that "Metadata is a love note to the future."  
+It is very important to provide good information within your metadata to assist people in understanding what the data are about, how it was created, how they can use it, who to contact with questions, and how to access the data.  It may even be helpful to you in the future as the data author to remember key details about the creation of the data set. It has been said that "Metadata is a love note to the future."  
 
 USGS has a very good resource clearly describing what type of information needs to go into the various elements of FGDC CSDGM standard.  
 
@@ -259,12 +260,6 @@ Although both FGDC CSDGM and ISO-191xx standards are currently endorsed by the F
 
 	* https://www.fgdc.gov/metadata/events/iso-geospatial-metadata-implementation-forum
 
-NOAA, National Center for Environmental Information (NCEI), formerly National Coastal Data Development Center (NCDDC), conducts a variety of metadata trainings and has an excellent set of material from these courses:
+EPA has provided detailed and clear guidance for developing metadata.  Some of the information is focused on EPA-specific content, but the general concepts and best practices can be applied to any metadata effort.
 
-	* http://www.ncddc.noaa.gov/metadata-standards/metadata-training/
-	* ftp://ftp.ncddc.noaa.gov/pub/Metadata/Online_ISO_Training/
-
-EPA has provides detailed and clear guidance for developing metadata.  Some of the information is focused on EPA-specific content, but the general concepts and best practices can be applied to any metadata effort.
-
-	* https://edg.epa.gov/EME/pdfs/GenericMetadataGuide.pdf
-	* https://edg.epa.gov/EME/resources.html
+	* https://www.epa.gov/geospatial/epa-metadata-editor
