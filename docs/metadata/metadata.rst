@@ -73,7 +73,7 @@ ISO 19115:2003
 
 ISO 19115:2003(E) - Geographic Information: Metadata
 
-ISO 19115 was developed by the geospatial community to address specific issues relating to both the description and the curation of spatial data. This standard can be used for describing digital or physical objects or datasets which have a spatial dimension. The standard also includes methodologies for creating application profiles, metadata extensions and hierarchical metadata and provides implementation examples. Geospatial professionals have developed a number of profiles of this standard to fit particular uses: for example, the Australia New Zealand Land Information Council (ANZLIC) Metadata Profile, the North American Profile (NAP), and the UK GEMINI profile. The standard’s accompanying XML schema, ISO/CD TS 19139 Geographic information — Metadata — enables interoperable XML expression of ISO 19115 compliant metadata.
+ISO 19115 was developed by the geospatial community to address specific issues relating to both the description and the curation of spatial data. This standard can be used for describing digital or physical objects or datasets which have a spatial dimension. The standard also includes methodologies for creating application profiles, metadata extensions, and hierarchical metadata and provides implementation examples. Geospatial professionals have developed a number of profiles of this standard to fit particular uses: for example, the Australia New Zealand Land Information Council (ANZLIC) Metadata Profile, the North American Profile (NAP), and the UK GEMINI profile. The standard’s accompanying XML schema, ISO/CD TS 19139 Geographic information — Metadata — enables interoperable XML expression of ISO 19115 compliant metadata.
 
 .. seealso::
 	* For more information and to acquire the ISO 19115 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020.
@@ -159,7 +159,7 @@ Metadata Creation Tools Webinar Videos (July 2015):
 	5. `Metadata Validation (3:02) <https://www.youtube.com/watch?v=7kGj3OdVUOA>`_
 	6. `Questions and Wrap-up (11:21) <https://www.youtube.com/watch?v=qc5YImj9oVQ>`_
 
-For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options), can be used to create, edit, and export FGDC-compliant metadata.  However, the other ArcCatalog styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003), have not been extensively tested with the WCODP, but have so far had mixed results.  
+For ArcGIS users, the FGDC CSDGM Metadata Style (set in ArcCatalog options) can be used to create, edit, and export FGDC-compliant metadata.  However, the other ArcCatalog styles for producing ISO metadata (ISO 19139 and North American Profile of ISO 19115 2003) have not been extensively tested with the WCODP but have so far had mixed results.  
 
 If the metadata are simple enough, some metadata creators prefer to use a text editor to edit the XML file directly.   This requires a bit of knowledge of both the metadata standard, tags, and XML.  The WCODP has an `ISO 19115 metadata template <http://network.westcoastoceans.org/wp-content/uploads/2015/09/template_xml_iso19115_new.zip>`_ that contributors can use.  
 
@@ -236,8 +236,6 @@ It is very important to provide good information within your metadata to assist 
 USGS has a very good resource clearly describing what type of information needs to go into the various elements of FGDC CSDGM standard.  
 
 * Metadata in Plain Language: http://geology.usgs.gov/tools/metadata/tools/doc/ctc/
-
-There is also some good information about metadata content in this document for Geospatial Platform/data.gov: https://www.geoplatform.gov/sites/default/files/document_library/MetadataPractices07-2013_Linked_0.pdf
 
 Most advice on content is applicable regardless of the metadata standard you use, but the location of the appropriate content may vary.  Focus on what you would like to know if you were interested in discovering and using someone else's data set.
 
