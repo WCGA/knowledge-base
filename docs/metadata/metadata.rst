@@ -61,7 +61,6 @@ Metadata Standards and Formats
 Use of standard metadata formats is critical for interoperability and access by other automated systems and web catalogs for geospatial data discovery and sharing. There are a large number of metadata standards which address the needs of particular user communities. NOAA and FGDC have a broad catalog of resources about metadata standards. 
 
 * http://www.fgdc.gov/metadata/geospatial-metadata-standards
-* http://www.ncddc.noaa.gov/metadata-standards/
 
 .. seealso::
 	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
