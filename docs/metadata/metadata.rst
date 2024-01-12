@@ -64,6 +64,7 @@ Use of standard metadata formats is critical for interoperability and access by 
 
 .. seealso::
 	* http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
+	* https://www.ncei.noaa.gov/resources/metadata
 
 The following standards can be used for data discovery via the West Coast Ocean Data Portal:
 
@@ -86,7 +87,6 @@ ISO 19115-2:2009 extends ISO 19115:2003 by defining the schema required for desc
 
 .. seealso::
 	* For more information and to acquire the ISO 19115-2 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=39229.
-	* NOAA, NCDDC workbook for implementing ISO 19115-2: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MI-Metadata.pdf
 
 FGDC CSDGM
 ----------
