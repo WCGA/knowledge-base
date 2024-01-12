@@ -76,8 +76,6 @@ ISO 19115 was developed by the geospatial community to address specific issues r
 
 .. seealso::
 	* For more information and to acquire the ISO 19115 documentation, see http://www.iso.org/iso/catalogue_detail.htm?csnumber=26020.
-	* NOAA, NCDDC workbook for implementing ISO 19115: http://service.ncddc.noaa.gov/rdn/www/metadata-standards/documents/MD-Metadata.pdf	
-
 
 ISO 19115-2
 -----------
