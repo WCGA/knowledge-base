@@ -133,7 +133,6 @@ Tool                                  Type     Standards                        
 `EPA Metadata Editor (EME) v.3.2`_    Desktop  FGDC CSDGM                             Windows OS             ArcGIS 10
 `EPA Metadata Editor (EME) v.4.0`_    Desktop  ISO 19115, 19115-2                     Windows OS, MS Access  ArcGIS 10
 `USGS Metadata Wizard`_               Desktop  FGDC CSDGM                             ArcGIS 10
-`MERMAID`_                            Web      FGDC CSDGM, ISO 19115-2 (export only)  web browser, login
 `ATRAC`_                              Web      ISO 19115-2                            web browser, login
 `USGS Online Metadata Editor (OME)`_  Web      FGDC CSDGM                             web browser, login
 ====================================  =======  =====================================  =====================  =========
@@ -142,7 +141,6 @@ Tool                                  Type     Standards                        
 .. _EPA Metadata Editor (EME) v.3.2: https://edg.epa.gov/EME/download.html
 .. _EPA Metadata Editor (EME) v.4.0: https://edg.epa.gov/EME/download.html
 .. _USGS Metadata Wizard: http://www.sciencebase.gov/metadatawizard 
-.. _MERMAID: http://www.ncddc.noaa.gov/metadata-standards/mermaid/
 .. _ATRAC: https://www.ncdc.noaa.gov/atrac/index.html
 .. _USGS Online Metadata Editor (OME): https://www1.usgs.gov/csas/ome/
 
