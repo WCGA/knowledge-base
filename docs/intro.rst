@@ -38,4 +38,4 @@ If you don't find the information you're looking for in this knowledge base or h
 * Andy Lanier, Portal Co-Chair, andy.lanier@state.or.us
 * Steve Weisberg, Portal Co-Chair, stevew@sccwrp.org
 
-We also encourage you to join the `West Coast Ocean Data Network <http://network.westcoastoceans.org/>`_ to find out about training and networking opportunities, as well as to connect with other members of the network to share resources, questions, and ideas.
+We also encourage you to email us to find out about training and networking opportunities, as well as to connect with other members of the network to share resources, questions, and ideas.
