@@ -7,7 +7,7 @@ Architecture
 ============
 The West Coast Ocean Data Portal is comprised of a number of technologies and software components.  The following diagram shows a generalized view of the software architecture.
 
-.. image:: images/WCODP_Tech_20250107 (1).png
+.. image:: images/WCODP_Tech_20250107.png
 	:scale: 100 %
 	:align: center
 
