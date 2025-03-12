@@ -1,5 +1,5 @@
 ========================
-WCGA Data Sharing Policy
+WCODP Data Sharing Policy
 ========================
 
 **General Statement**
