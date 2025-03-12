@@ -9,7 +9,7 @@ The West Coast Ocean Data Portal is comprised of a number of technologies and so
 
 .. image:: images/WCODP_Tech_20250107.png
 	:scale: 50 %
-	:align: center
+	
 
 
 **The WCODP relies upon the following technologies:**
