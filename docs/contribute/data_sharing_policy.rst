@@ -4,15 +4,15 @@ WCODP Data Sharing Policy
 
 **General Statement**
 
-	The WCGA and the West Coast Ocean Data Portal seek to promote and advocate the spirit of “open data” to ensure that data products are made freely and readily accessible to our stakeholders and the public in machine readable formats.
+	The WCOA and the West Coast Ocean Data Portal seek to promote and advocate the spirit of “open data” to ensure that data products are made freely and readily accessible to our stakeholders and the public in machine readable formats.
 
 **Data/Metadata Format and Standards**
 
- 	WCGA and West Coast Ocean Data Portal (WCODP) Action Coordination Team (ACT) will ensure compatibility with federal requirements, and any data generated through grant activities be required to complete ISO or FGDC metadata and generate OGC Services.
+ 	WCOA and West Coast Ocean Data Portal (WCODP) Action Coordination Team (ACT) will ensure compatibility with federal requirements, and any data generated through grant activities be required to complete ISO or FGDC metadata and generate OGC Services.
 
 **Data Authorship and Citation**
 
-	The WCGA will strive to advertise information related to the original authors of the data that is discoverable through our portal. It is vitally important to recognize contributions from our partners by providing the original source and citation for any data.
+	The WCOA will strive to advertise information related to the original authors of the data that is discoverable through our portal. It is vitally important to recognize contributions from our partners by providing the original source and citation for any data.
 
 **Data Stewardship and Preservation**
 
