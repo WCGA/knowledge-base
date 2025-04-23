@@ -93,7 +93,7 @@ That's it!  The WCODP Administrator will be in touch to let you know that the ha
 .. toctree::
    :maxdepth: 1
 
-   WCGA Data Sharing Policy <data_sharing_policy>
+   WCODP Data Sharing Policy <data_sharing_policy>
 
 
 
